@@ -11,6 +11,8 @@ namespace CollisionLab1
     {
         static void Main(string[] args)
         {
+            
+            //suck dck jacky
             Console.WriteLine("Good job we did it");
             //creates 2 ball objects
             Ball b1 = new Ball(-100, 4.0,12, 4, -1165.66, 5);
