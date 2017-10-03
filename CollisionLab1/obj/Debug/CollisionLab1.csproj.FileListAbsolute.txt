@@ -5,3 +5,10 @@ C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\Collisi
 C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\CollisionLab1\obj\Debug\CollisionLab1.csproj.CoreCompileInputs.cache
 C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\CollisionLab1\obj\Debug\CollisionLab1.exe
 C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\CollisionLab1\obj\Debug\CollisionLab1.pdb
+C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.csprojResolveAssemblyReference.cache
+C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.csproj.CoreCompileInputs.cache
+C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.exe
+C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.pdb
+C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\bin\Debug\CollisionLab1.exe.config
+C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\bin\Debug\CollisionLab1.exe
+C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\bin\Debug\CollisionLab1.pdb
