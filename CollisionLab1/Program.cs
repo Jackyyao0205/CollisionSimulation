@@ -8,39 +8,66 @@ using System.Threading.Tasks;
 namespace CollisionLab1
 {
     class Collision
+
     {
+
         static void Main(string[] args)
         {
             
+<<<<<<< HEAD
             Console.WriteLine("Good job we did it");
+=======
+>>>>>>> bf544c41a336c5bfd5c5175a73d37f5f63701186
             //creates 2 ball objects
-            Ball b1 = new Ball(-100, 4.0,12, 4, -1165.66, 5);
-            Ball b2 = new Ball(100,  0, 0, 4, -1165.66, 6);
-            double sx = Math.Abs(b1.getposx() - b2.getposx());//checks how far the balls are at start
+            Ball b1 = new Ball(-100, 0,  4.0,12, 4, -1165.66, 5,0,0,false);
+            Ball b2 = new Ball(100,0,0, 0, 4, -1165.66, 6, 0,0,false);
             List<double> time = new List<double>();//creates a list for each time interval
             time.Add(0);//adds the time at 0
-            List<double> Velocity1 = new List<double>();//creates a list for each velocity of ball 1
-            Velocity1.Add(b1.v);//adds the velocity of ball 1 at time 0
-            List<double> Position1 = new List<double>();//creates a list for each of the positions of centre of ball 1
-            Position1.Add(b1.pos);//adds the position at time 0
-            List<double> Velocity2 = new List<double>();//creates a list for each velocity of ball 2
-            Velocity2.Add(b2.v);//adds the velocity of ball 2 at time 0
-            List<double> Position2 = new List<double>();//creates a list for each of the positions of centre of ball 1
-            Position1.Add(b2.pos);//adds the position at time 0
+            List<double> Velocity1x = new List<double>();//creates a list for each velocity of ball 1
+            Velocity1x.Add(b1.vx);//adds the velocity of ball 1 at time 0
+            List<double> Velocity1y = new List<double>();//creates a list for each velocity of ball 1
+            Velocity1y.Add(b1.vy);//adds the velocity of ball 1 at time 0
+            List<double> Position1x = new List<double>();//creates a list for each of the positions of centre of ball 1
+            Position1x.Add(b1.posx);//adds the position at time 0
+            List<double> Position1y = new List<double>();//creates a list for each of the positions of centre of ball 1
+            Position1y.Add(b1.posy);//adds the position at time 0
+            List<double> Velocity2x = new List<double>();//creates a list for each velocity of ball 2
+            Velocity2x.Add(b2.vx);//adds the velocity of ball 2 at time 0
+            List<double> Velocity2y = new List<double>();//creates a list for each velocity of ball 2
+            Velocity2y.Add(b2.vy);//adds the velocity of ball 2 at time 0
+            List<double> Position2x = new List<double>();//creates a list for each of the positions of centre of ball 1
+            Position2x.Add(b2.posx);//adds the position at time 0
+            List<double> Position2y = new List<double>();//creates a list for each of the positions of centre of ball 1
+            Position2y.Add(b2.posy);//adds the position at time 0
             int count = 0;
+
             //loop for before the balls meet
-            count++;//increases the time by one intervak
-            while (b1.getradius() + b2.getradius() > sx)
+            count++;//increases the time by one interval
+            double s = Math.Sqrt(Math.Pow(b2.posx - b1.posx, 2) + Math.Pow(b2.posy - b1.posy, 2)); //checks the distance between balls
+            while (b1.radius + b2.radius > s)
             {
                 time.Add(count * 0.01);
-                b1.pos = b1.pos + b1.v * 0.01 + 0.5*b1.a* 0.01*0.01;//calculates new ball 1 position
-                Position1.Add(b1.pos);
-                b1.v = b1.v + b1.a * 0.01;//calculates new ball 1 velocity
-                Velocity1.Add(b1.v);
-                b2.pos = b2.pos + b2.v * 0.01 + 0.5 * b2.a * 0.01 * 0.01;//calculate new ball 2 position
-                Position2.Add(b2.pos);
-                b2.v = b2.v + b2.a * 0.01;//calculate new ball 2 velocity
-                Velocity2.Add(b2.v);
+                //find new x position of ball 1
+                b1.posx = b1.posx + b1.vx * count * 0.01 + 0.5 * b1.ax * Math.Pow (count * 0.01,2);//new x position of ball 1
+                Position1x.Add(b1.posx);
+                b1.vx = b1.vx + b1.ax * count * 0.01;//finds new x velocity 
+                Velocity1x.Add(b1.vx);
+                //find new y position of ball 1
+                b1.posy = b1.posy + b1.vy * count * 0.01 + 0.5 * b1.ay * Math.Pow(count * 0.01, 2);//new y position of ball 1
+                Position1y.Add(b1.posy);
+                b1.vy = b1.vy + b1.ay * count * 0.01;//finds new x velocity 
+                Velocity1y.Add(b1.vy);
+                //find new x position of ball 2
+                b2.posx = b2.posx + b2.vx * count * 0.01 + 0.5 * b2.ax * Math.Pow(count * 0.01, 2);//new x position of ball 1
+                Position2x.Add(b2.posx);
+                b2.vx = b2.vx + b2.ax * count * 0.01;//finds new x velocity 
+                Velocity2x.Add(b2.vx);
+                //find new y position of ball 1
+                b2.posy = b2.posy + b2.vy * count * 0.01 + 0.5 * b2.ay * Math.Pow(count * 0.01, 2);//new y position of ball 1
+                Position2y.Add(b2.posy);
+                b2.vy = b2.vy + b2.ay * count * 0.01;//finds new x velocity 
+                Velocity2y.Add(b2.vy);
+                s = Math.Sqrt(Math.Pow(b2.posx - b1.posx, 2) + Math.Pow(b2.posy - b1.posy, 2)); //find new distance between balls
                 count++;//increases the time by one interval
             }
 
@@ -64,23 +91,45 @@ namespace CollisionLab1
             }
 
             //loop for after balls compress
-            while (Math.Abs(b1.pos) >= 100 && Math.Abs(b2.pos) >= 100)
+            for (int i = 0; i < 200; i ++)
             {
                 time.Add(count * 0.01);
-                b1.pos = b1.pos + b1.v * 0.01 + 0.5 * b1.a * 0.01 * 0.01;//calculates new ball 1 position
-                Position1.Add(b1.pos);
-                b1.v = b1.v + b1.a * 0.01;//calculates new ball 1 velocity
-                Velocity1.Add(b1.v);
-                b2.pos = b2.pos + b2.v * 0.01 + 0.5 * b2.a * 0.01 * 0.01;//calculate new ball 2 position
-                Position2.Add(b2.pos);
-                b2.v = b2.v + b2.a * 0.01;//calculate new ball 2 velocity
-                Velocity1.Add(b2.v);
+                //find new x position of ball 1
+                b1.posx = b1.posx + b1.vx * count * 0.01 + 0.5 * b1.ax * Math.Pow(count * 0.01, 2);//new x position of ball 1
+                Position1x.Add(b1.posx);
+                b1.vx = b1.vx + b1.ax * count * 0.01;//finds new x velocity 
+                Velocity1x.Add(b1.vx);
+                //find new y position of ball 1
+                b1.posy = b1.posy + b1.vy * count * 0.01 + 0.5 * b1.ay * Math.Pow(count * 0.01, 2);//new y position of ball 1
+                Position1y.Add(b1.posy);
+                b1.vy = b1.vy + b1.ay * count * 0.01;//finds new x velocity 
+                Velocity1y.Add(b1.vy);
+                //find new x position of ball 2
+                b2.posx = b2.posx + b2.vx * count * 0.01 + 0.5 * b2.ax * Math.Pow(count * 0.01, 2);//new x position of ball 1
+                Position2x.Add(b2.posx);
+                b2.vx = b2.vx + b2.ax * count * 0.01;//finds new x velocity 
+                Velocity2x.Add(b2.vx);
+                //find new y position of ball 1
+                b2.posy = b2.posy + b2.vy * count * 0.01 + 0.5 * b2.ay * Math.Pow(count * 0.01, 2);//new y position of ball 1
+                Position2y.Add(b2.posy);
+                b2.vy = b2.vy + b2.ay * count * 0.01;//finds new x velocity 
+                Velocity2y.Add(b2.vy);
+                s = Math.Sqrt(Math.Pow(b2.posx - b1.posx, 2) + Math.Pow(b2.posy - b1.posy, 2)); //find new distance between balls
                 count++;//increases the time by one interval
             }
 
-            //var csv = new CsvReader(TextReader);
-            //var records = csv.GetRecords<Collision>();
-            //hi megan toxic ass 
+            //create a csv file 
+            string filePath = @"C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\test.csv";
+                         string delimiter = ",";
+            
+               string[][] output = new string[][] { new string[] { "Col 1 Row 1", "Col 2 Row 1", "Col 3 Row 1" }, new string[] { "Col1 Row 2", "Col2 Row 2", "Col3 Row 2" } };
+                           int length = output.GetLength(0);
+                           StringBuilder sb = new StringBuilder();
+                          for (int index = 0; index < length; index++)
+                                  sb.AppendLine(string.Join(delimiter, output[index]));
+          
+              File.WriteAllText(filePath, sb.ToString());
+
         }
     }
 }
