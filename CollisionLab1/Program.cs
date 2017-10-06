@@ -17,7 +17,7 @@ namespace CollisionLab1
             //creates 2 ball objects
             Ball b1 = new Ball(-100, 4.0,12, 4, -1165.66, 5);
             Ball b2 = new Ball(100,  0, 0, 4, -1165.66, 6);
-            double sx = Math.Abs(b1.getposx() - b2.getposx());//checks how far the balls are at start
+            double sx = Math.Abs(b1.posx - b2.posx);//checks how far the balls are at start
             List<double> time = new List<double>();//creates a list for each time interval
             time.Add(0);//adds the time at 0
             List<double> Velocity1 = new List<double>();//creates a list for each velocity of ball 1
@@ -79,9 +79,7 @@ namespace CollisionLab1
                 count++;//increases the time by one interval
             }
 
-            //var csv = new CsvReader(TextReader);
-            //var records = csv.GetRecords<Collision>();
-            //hi megan toxic ass 
+            
         }
     }
 }
