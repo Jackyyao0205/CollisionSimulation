@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 namespace CollisionLab1
 {
     class Collision
+
     {
+
         static void Main(string[] args)
         {
             
@@ -65,6 +67,25 @@ namespace CollisionLab1
                 count++;//increases the time by one interval
             }
 
+            //collision for 1d head on motionless
+            double b1vi = b1.v, b2vi = b2.v;
+            double Force1 = b1.spring * (b1.pos - b2.pos), Force2 = b2.spring * (b1.pos - b2.pos);//not right thanks megan 
+            b1.a = Force1 / b1.mass;//find new acceleration for b1
+            b2.a = Force2 / b2.mass;//find new acceleration for b2 
+            while (((b1vi > 0 && b1.v > 0) || (b1vi < 0 && b1.v < 0)) && ((b2vi > 0 && b2.v > 0) || (b2vi > 0 && b2.v > 0)))
+            {
+                time.Add(count * 0.01);
+                b1.v = b1.v + b1.a * 0.01;//calculates new ball 1 velocity
+                Velocity1.Add(b1.v);
+                b1.pos = b1.pos + b1.v * 0.01 + 0.5 * b1.a * 0.01 * 0.01;//calculates new ball 1 position
+                Position1.Add(b1.pos);
+                b2.v = b2.v + b2.a * 0.01;//calculate new ball 2 velocity
+                Velocity1.Add(b2.v);
+                b2.pos = b2.pos + b2.v * 0.01 + 0.5 * b2.a * 0.01 * 0.01;//calculate new ball 2 position
+                Position2.Add(b2.pos);
+                count++;//increase the time by interval
+            }
+
             //loop for after balls compress
             for (int i = 0; i < 200; i ++)
             {
@@ -92,6 +113,19 @@ namespace CollisionLab1
                 s = Math.Sqrt(Math.Pow(b2.posx - b1.posx, 2) + Math.Pow(b2.posy - b1.posy, 2)); //find new distance between balls
                 count++;//increases the time by one interval
             }
+
+            //create a csv file 
+            string filePath = @"C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\test.csv";
+                         string delimiter = ",";
+            
+               string[][] output = new string[][] { new string[] { "Col 1 Row 1", "Col 2 Row 1", "Col 3 Row 1" }, new string[] { "Col1 Row 2", "Col2 Row 2", "Col3 Row 2" } };
+                           int length = output.GetLength(0);
+                           StringBuilder sb = new StringBuilder();
+                          for (int index = 0; index < length; index++)
+                                  sb.AppendLine(string.Join(delimiter, output[index]));
+          
+              File.WriteAllText(filePath, sb.ToString());
+
         }
     }
 }
