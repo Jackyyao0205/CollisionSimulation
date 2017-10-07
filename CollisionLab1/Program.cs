@@ -169,7 +169,16 @@ namespace CollisionLab1
                 
                 count++;//increases the time by one interval
             }
+            
+            Console.WriteLine("v1 = " + b1.v.mag);
+            Console.WriteLine("v1 theta = " + b1.v.angle);
+            
+            Console.WriteLine("v2 = " + b2.v.mag);
+            Console.WriteLine("v2 theta = " + b2.v.angle);
+            
 
+            /**
+            
             //create a csv file 
             string filePath = @"C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\test.csv";
                          string delimiter = ",";
@@ -290,6 +299,7 @@ namespace CollisionLab1
                                   sb.AppendLine(string.Join(delimiter, output[index]));
           
               File.WriteAllText(filePath, sb.ToString());
+              **/
 
         }
 
