@@ -68,7 +68,7 @@ namespace CollisionLab1
             }
 
             //collision for 1d head on motionless
-            double b1vi = b1.v, b2vi = b2.v;
+            /*double b1vi = b1.v, b2vi = b2.v;
             double Force1 = b1.spring * (b1.pos - b2.pos), Force2 = b2.spring * (b1.pos - b2.pos);//not right thanks megan 
             b1.a = Force1 / b1.mass;//find new acceleration for b1
             b2.a = Force2 / b2.mass;//find new acceleration for b2 
@@ -84,7 +84,7 @@ namespace CollisionLab1
                 b2.pos = b2.pos + b2.v * 0.01 + 0.5 * b2.a * 0.01 * 0.01;//calculate new ball 2 position
                 Position2.Add(b2.pos);
                 count++;//increase the time by interval
-            }
+            }*/
 
             //loop for after balls compress
             for (int i = 0; i < 200; i ++)
@@ -118,8 +118,117 @@ namespace CollisionLab1
             string filePath = @"C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\test.csv";
                          string delimiter = ",";
             
-               string[][] output = new string[][] { new string[] { "Col 1 Row 1", "Col 2 Row 1", "Col 3 Row 1" }, new string[] { "Col1 Row 2", "Col2 Row 2", "Col3 Row 2" } };
-                           int length = output.GetLength(0);
+               string[][] output = new string[9][];
+            output[0] = new string[count + 1];
+            for (int i = 0; i < count; i++)
+            {
+                if (i == 0)
+                {
+                    output[0][i] = "Time";
+                }
+                else
+                {
+                    output[0][i] = Convert.ToString(time[i]);
+                }
+            }
+            output[1] = new string[count + 1];
+            for (int i = 0; i < count; i++)
+            {
+                if (i == 0)
+                {
+                    output[1][i] = "Ball 1 Pos X";
+                }
+                else
+                {
+                    output[1][i] = Convert.ToString(Position1x[i]);
+                }
+            }
+            output[2] = new string[count + 1];
+            for (int i = 0; i < count; i++)
+            {
+                if (i == 0)
+                {
+                    output[2][i] = "Ball 1 Pos Y";
+                }
+                else
+                {
+                    output[2][i] = Convert.ToString(Position1y[i]);
+                }
+            }
+            output[3] = new string[count + 1];
+            for (int i = 0; i < count; i++)
+            {
+                if (i == 0)
+                {
+                    output[3][i] = "Ball 1 Velocity X";
+                }
+                else
+                {
+                    output[3][i] = Convert.ToString(Velocity1x[i]);
+                }
+            }
+            output[4] = new string[count + 1];
+            for (int i = 0; i < count; i++)
+            {
+                if (i == 0)
+                {
+                    output[4][i] = "Ball 1 Velocity Y";
+                }
+                else
+                {
+                    output[4][i] = Convert.ToString(Velocity1y[i]);
+                }
+            }
+            output[5] = new string[count + 1];
+            for (int i = 0; i < count; i++)
+            {
+                if (i == 0)
+                {
+                    output[5][i] = "Ball 2 Pos x";
+                }
+                else
+                {
+                    output[5][i] = Convert.ToString(Position2x[i]);
+                }
+            }
+            output[6] = new string[count + 1];
+            for (int i = 0; i < count; i++)
+            {
+                if (i == 0)
+                {
+                    output[6][i] = "Ball 2 Pos y";
+                }
+                else
+                {
+                    output[6][i] = Convert.ToString(Position2y[i]);
+                }
+            }
+            output[7] = new string[count + 1];
+            for (int i = 0; i < count; i++)
+            {
+                if (i == 0)
+                {
+                    output[7][i] = "Ball 2 Velocity X";
+                }
+                else
+                {
+                    output[7][i] = Convert.ToString(Velocity2x[i]);
+                }
+            }
+            output[8] = new string[count + 1];
+            for (int i = 0; i < count; i++)
+            {
+                if (i == 0)
+                {
+                    output[8][i] = "Ball 2 Velocity Y";
+                }
+                else
+                {
+                    output[8][i] = Convert.ToString(Velocity2y[i]);
+                }
+            }
+            
+            int length = output.GetLength(0);
                            StringBuilder sb = new StringBuilder();
                           for (int index = 0; index < length; index++)
                                   sb.AppendLine(string.Join(delimiter, output[index]));
