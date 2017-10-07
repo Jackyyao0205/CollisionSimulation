@@ -4,21 +4,23 @@ namespace CollisionLab1
 {
     public class Ball
     {
-        public double vx,vy, posx, posy,  ax, ay, radius, spring, mass, rotation, angle ;
+        public double radius, spring, mass, rotation, angle ;
+        public Vector v, s, a;
+        public Point pos;
         public Boolean clockwise;
-        public Ball(double px,double py, double v1, double a1, double r, double s, double m, double rotate, double ang, Boolean yes)
+        public Ball(double px,double py, double v1, double a1, double r, double k, double m, double rotate, double angle, Boolean yes)
         {
-            this.vx = v1*Math.Cos(ang);
-            this.vy = v1 * Math.Sin(ang);
-            this.posx = px;
-            this.posy = py;
-            this.ax = a1*Math.Cos(ang);
-            this.ay = a1 * Math.Sin(ang);
+            v = new Vector(v1, 'v', angle);
+            s = new Vector(px, py, angle);
+            a = new Vector(a1, 'v', angle);
+            pos = new Point(px, py);
+            
             this.radius = r;
-            this.spring = s;
+            this.spring = k;
             this.mass = m;
             this.rotation = rotate;
             this.clockwise = yes;
+            //this.angle = Math.Atan(posy / posx);
         }
         
     }
