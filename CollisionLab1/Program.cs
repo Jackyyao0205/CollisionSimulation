@@ -16,6 +16,7 @@ namespace CollisionLab1
 
         static void Main(string[] args)
         {
+            Console.WriteLine("HI");
             
             //creates 2 ball objects
             Ball b1 = new Ball(-100, 0,  5.0,0, 4, -1165.66, 5,0,0,false);
@@ -107,8 +108,8 @@ namespace CollisionLab1
 
                 // acceleration of ball 1 is calculated with the force exerted by BALL 2 
                 // acceleration of ball 2 is calculated with the force exerted by BALL 1 
-                b1.a = getNextAcceleration(f2, m);
-                b2.a = getNextAcceleration(f1, m);
+                b1.a = getNextAcceleration(f2, b1.mass);
+                b2.a = getNextAcceleration(f1, b2.mass);
                 
                 b1.v = getNextVelocity(b1.v, b1.a, 0.01);//calculates new ball 1 velocity
                 Velocity1x.Add(b1.v.x);
@@ -244,6 +245,7 @@ namespace CollisionLab1
             return s;
         }
 
+        
         /// <summary>
         /// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time
         /// </summary>
