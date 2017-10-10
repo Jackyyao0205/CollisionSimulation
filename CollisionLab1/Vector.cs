@@ -93,5 +93,29 @@ namespace CollisionLab1
             this.angle = Math.Atan(y / x);
         }
 
+        /// <summary>
+        /// Computed the cross product of two vectors
+        /// </summary>
+        /// <param name="a">First Vector</param>
+        /// <param name="b">Second Vector</param>
+        /// <returns>Scalar cross product</returns>
+        public static double crossProduct(Vector a, Vector b)
+        {
+            double cp, theta;
+
+            theta = 0;//if angle of a is equal to the angle of b, the angle between them is 0
+            if (a.angle > b.angle)
+            {
+                theta = a.angle - b.angle;
+            }
+            else if (b.angle > a.angle)
+            {
+                theta = b.angle - a.angle;
+            }
+
+            cp = a.mag * b.mag * Math.Sin(theta); //cp = |a| * |b| * sin(theta)
+            return cp;
+        }
+
     }
 }

@@ -6,13 +6,16 @@ namespace CollisionLab1
     {
         public double radius, spring, mass, rotation, angle ;
         public Vector v, s, a;
+        public double w;
         public Point pos;
         public Boolean clockwise;
-        public Ball(double px,double py, double v1, double a1, double r, double k, double m, double rotate, double angle, Boolean yes)
+        public Ball(double px,double py, double v1, double a1, double r, double k, double m, double rotate, double angle, Boolean yes, double w)
         {
             v = new Vector(v1, 'v', angle);
             s = new Vector(px, py, angle);
             a = new Vector(a1, 'v', angle);
+            this.w = w; // angular velocity
+            
             pos = new Point(px, py);
             
             this.radius = r;

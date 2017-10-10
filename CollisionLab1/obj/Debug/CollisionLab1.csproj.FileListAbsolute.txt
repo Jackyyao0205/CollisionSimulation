@@ -1,29 +1,7 @@
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\CollisionLab1\bin\Debug\CollisionLab1.exe.config
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\CollisionLab1\bin\Debug\CollisionLab1.exe
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\CollisionLab1\bin\Debug\CollisionLab1.pdb
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\CollisionLab1\obj\Debug\CollisionLab1.csprojResolveAssemblyReference.cache
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\CollisionLab1\obj\Debug\CollisionLab1.csproj.CoreCompileInputs.cache
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\CollisionLab1\obj\Debug\CollisionLab1.exe
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\C# Files\CollisionLab1\CollisionLab1\obj\Debug\CollisionLab1.pdb
-<<<<<<< HEAD
 C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\bin\Debug\CollisionLab1.exe.config
 C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\bin\Debug\CollisionLab1.exe
 C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\bin\Debug\CollisionLab1.pdb
-C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\bin\Debug\mscorlib.dll
-C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\bin\Debug\normidna.nlp
-C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\bin\Debug\normnfc.nlp
-C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\bin\Debug\normnfd.nlp
-C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\bin\Debug\normnfkc.nlp
-C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\bin\Debug\normnfkd.nlp
 C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.csprojResolveAssemblyReference.cache
+C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.csproj.CoreCompileInputs.cache
 C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.exe
 C:\Users\Megan Niu\Desktop\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.pdb
-=======
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.csprojResolveAssemblyReference.cache
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.csproj.CoreCompileInputs.cache
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.exe
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\obj\Debug\CollisionLab1.pdb
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\bin\Debug\CollisionLab1.exe.config
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\bin\Debug\CollisionLab1.exe
-C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\CollisionLab1\bin\Debug\CollisionLab1.pdb
->>>>>>> c3b889e4e1a0bf7562f5889ed38609a4f92bd003
