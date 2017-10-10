@@ -41,6 +41,10 @@ namespace CollisionLab1
             this.y = y;
             this.mag = Math.Sqrt(x * x + y * y);
             this.angle = Math.Atan(y / x);// angle = arctan(y/x)
+           /* if (this.angle <0)
+            {
+                this.angle += 2 * Math.PI;
+            }*/
         }
         
         /// <summary>
@@ -73,6 +77,10 @@ namespace CollisionLab1
                 this.x = mag * Math.Cos(angle); 
                 this.y = mag * Math.Sin(angle);
             }
+            /*if (this.angle < 0)
+            {
+                this.angle += 2 * Math.PI;
+            }*/
         }
 
         /// <summary>
@@ -91,6 +99,10 @@ namespace CollisionLab1
             this.y = b.y - a.y;
             this.mag = Math.Sqrt(x * x + y * y);
             this.angle = Math.Atan(y / x);
+            /*if (this.angle < 0)
+            {
+                this.angle += 2 * Math.PI;
+            }*/
         }
 
     }
