@@ -16,6 +16,7 @@ namespace CollisionLab1
 
         static void Main(string[] args)
         {
+            Console.WriteLine("HI");
             
             //creates 2 ball objects (posx, posy, velocity, acceleration, radius, spring constant, mass, rotational speed, angle, if glancing)
             Ball b1 = new Ball(-1, 0, 5, 0, 2, 1165.66, 5,0,0,false);
@@ -358,6 +359,7 @@ namespace CollisionLab1
             return s;
         }
 
+        
         /// <summary>
         /// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time
         /// </summary>
