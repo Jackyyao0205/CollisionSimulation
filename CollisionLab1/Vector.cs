@@ -197,34 +197,15 @@ namespace CollisionLab1
         /// <param name="b">Point where the head of the vector is</param>
         public Vector(Point a, Point b, double mag)
         {
-            /*double abx, aby;
+            double abx, aby, abmag;
             this.mag = mag;
 
             abx = b.x - a.x;
             aby = b.y - a.y;
-            //this.mag = Math.Sqrt(x * x + y * y);
-            this.angle = Math.Atan(aby/abx);
-            this.x = */
-            double abx, aby;
-
-            this.mag = mag;
-            abx = b.x - a.x;
-            aby = b.y - a.y;
-            this.angle = 0;
-            if (aby != 0)
-            {
-                this.angle = Math.Atan(aby / abx);
-            }
-            else if (abx < 0 && b.y == a.y)
-            {
-                this.angle = Math.PI;
-            }
+            abmag = Math.Sqrt(abx * abx + aby * aby);
+            this.angle = Math.Acos(abx/abmag);
             this.x = mag * Math.Cos(angle);
             this.y = mag * Math.Sin(angle);
-            /*if (this.angle < 0)
-            {
-                this.angle += 2 * Math.PI;
-            }*/
         }
 
         /// <summary>
@@ -251,6 +232,7 @@ namespace CollisionLab1
             return cp;
         }
 
+        /*
         /// <summary>
         /// Computed the cross product of two vectors
         /// </summary>
@@ -274,6 +256,7 @@ namespace CollisionLab1
             cp = a.mag * b.mag * Math.Sin(theta); //cp = |a| * |b| * sin(theta)
             return cp;
         }
+        */
 
     }
 }

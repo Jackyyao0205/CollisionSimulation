@@ -4,14 +4,11 @@
     <list default="true" id="b5f87563-7580-4f42-9658-e52c40a050c5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollisionLab1/bin/Debug/CollisionLab1.exe" afterPath="$PROJECT_DIR$/CollisionLab1/bin/Debug/CollisionLab1.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollisionLab1/bin/Debug/CollisionLab1.pdb" afterPath="$PROJECT_DIR$/CollisionLab1/bin/Debug/CollisionLab1.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollisionLab1/obj/Debug/CollisionLab1.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/CollisionLab1/obj/Debug/CollisionLab1.csprojResolveAssemblyReference.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollisionLab1/obj/Debug/CollisionLab1.exe" afterPath="$PROJECT_DIR$/CollisionLab1/obj/Debug/CollisionLab1.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollisionLab1/obj/Debug/CollisionLab1.pdb" afterPath="$PROJECT_DIR$/CollisionLab1/obj/Debug/CollisionLab1.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.CollisionLab1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.CollisionLab1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollisionLab1/Ball.cs" afterPath="$PROJECT_DIR$/CollisionLab1/Ball.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollisionLab1/Program.cs" afterPath="$PROJECT_DIR$/CollisionLab1/Program.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollisionLab1/Vector.cs" afterPath="$PROJECT_DIR$/CollisionLab1/Vector.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CollisionLab1/obj/Debug/CollisionLab1.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/CollisionLab1/obj/Debug/CollisionLab1.csproj.FileListAbsolute.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,38 +20,70 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CollisionLab1/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="141" column="28" lean-forward="true" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+            <state relative-caret-position="169">
+              <caret line="480" column="0" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="499" selection-end-column="9" />
               <folding>
-                <marker date="1507637332911" expanded="false" signature="6:249" ph="..." />
-                <marker date="1507637332911" expanded="true" signature="274:18419" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="297:18417" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="344:12627" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="3828:5426" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="5441:5534" ph="/* collision for 1d head on motionless ... */" />
-                <marker date="1507637332911" expanded="true" signature="5707:6002" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
-                <marker date="1507637332911" expanded="true" signature="6086:7956" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="6370:6533" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
-                <marker date="1507637332911" expanded="true" signature="8187:9531" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="10013:12333" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="10099:11077" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="11098:12319" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="12637:13103" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
-                <marker date="1507637332911" expanded="true" signature="13189:13597" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="13608:13982" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
-                <marker date="1507637332911" expanded="true" signature="14058:14418" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="14428:14764" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
-                <marker date="1507637332911" expanded="true" signature="14833:15249" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="15259:15632" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
-                <marker date="1507637332911" expanded="true" signature="15704:15923" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="15933:16356" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
-                <marker date="1507637332911" expanded="true" signature="16422:16694" ph="{...}" />
-                <marker date="1507637332911" expanded="true" signature="16704:17039" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
-                <marker date="1507637332911" expanded="true" signature="17049:17571" ph="/// getNextAngularVelocity calculated the next angular velocity of a ball ... " />
-                <marker date="1507637332911" expanded="true" signature="17697:18410" ph="{...}" />
+                <marker date="1507948572553" expanded="false" signature="6:249" ph="..." />
+                <marker date="1507948572553" expanded="true" signature="275:41802" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="298:41800" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="345:17043" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="5131:7253" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="7386:7521" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
+                <marker date="1507948572553" expanded="true" signature="7621:10117" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="8329:8492" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
+                <marker date="1507948572553" expanded="true" signature="10348:12199" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="12682:16749" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="12768:14517" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="14538:16735" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="17053:17519" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
+                <marker date="1507948572553" expanded="true" signature="17605:18061" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="18072:18446" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
+                <marker date="1507948572553" expanded="true" signature="18522:18882" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="18892:19228" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
+                <marker date="1507948572553" expanded="true" signature="19297:19713" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="19723:20096" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
+                <marker date="1507948572553" expanded="true" signature="20165:20561" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="20213:20357" ph="/* fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y)); ... */" />
+                <marker date="1507948572553" expanded="true" signature="20571:20994" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
+                <marker date="1507948572553" expanded="true" signature="21060:21332" ph="{...}" />
+                <marker date="1507948572553" expanded="true" signature="21342:21677" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
+                <marker date="1507948572553" expanded="true" signature="21678:23061" ph="/* getNextAngularVelocity calculated the next angular velocity of a ball ... */" />
+                <marker date="1507948572553" expanded="true" signature="23070:41792" ph="/* getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CollisionLab1/Vector.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2204">
+              <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="260" selection-end-column="5" />
+              <folding>
+                <marker date="1507950059546" expanded="false" signature="6:152" ph="..." />
+                <marker date="1507950059546" expanded="true" signature="154:4390" ph="/* Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... */" />
+                <marker date="1507950059546" expanded="true" signature="4414:9757" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="4421:4662" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
+                <marker date="1507950059546" expanded="true" signature="4686:9755" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="4764:5122" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
+                <marker date="1507950059546" expanded="true" signature="5178:5327" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="5337:5552" ph="/// Constructs a vector given x and y components ... " />
+                <marker date="1507950059546" expanded="true" signature="5594:5776" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="5786:6272" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
+                <marker date="1507950059546" expanded="true" signature="6331:7229" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="6422:6636" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="6722:6936" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="7027:7219" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="7239:7784" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
+                <marker date="1507950059546" expanded="true" signature="7836:8168" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="8178:8419" ph="/// Computed the cross product of two vectors ... " />
+                <marker date="1507950059546" expanded="true" signature="8481:8947" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="8651:8722" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="8762:8833" ph="{...}" />
+                <marker date="1507950059546" expanded="true" signature="8957:9748" ph="/* Computed the cross product of two vectors ... */" />
               </folding>
             </state>
           </provider>
@@ -63,8 +92,8 @@
       <file leaf-file-name="Ball.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CollisionLab1/Ball.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="209">
+              <caret line="11" column="103" lean-forward="false" selection-start-line="11" selection-start-column="103" selection-end-line="11" selection-end-column="103" />
               <folding>
                 <marker date="1507586213182" expanded="true" signature="38:872" ph="{...}" />
                 <marker date="1507586213182" expanded="true" signature="62:870" ph="{...}" />
@@ -74,41 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vector.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CollisionLab1/Vector.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="108" column="42" lean-forward="false" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
-              <folding>
-                <marker date="1507588895530" expanded="false" signature="6:152" ph="..." />
-                <marker date="1507588895530" expanded="true" signature="177:4614" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="184:425" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
-                <marker date="1507588895530" expanded="true" signature="449:4612" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="527:885" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
-                <marker date="1507588895530" expanded="true" signature="941:1091" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="1101:1316" ph="/// Constructs a vector given x and y components ... " />
-                <marker date="1507588895530" expanded="true" signature="1358:1540" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="1558:2044" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
-                <marker date="1507588895530" expanded="true" signature="2103:3002" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="2194:2408" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="2494:2708" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="2799:2992" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="3012:3557" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
-                <marker date="1507588895530" expanded="true" signature="3609:3826" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="3836:4077" ph="/// Computed the cross product of two vectors ... " />
-                <marker date="1507588895530" expanded="true" signature="4139:4605" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="4309:4380" ph="{...}" />
-                <marker date="1507588895530" expanded="true" signature="4420:4491" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Point.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Point.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CollisionLab1/Point.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="228">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
                 <marker date="1507382211624" expanded="true" signature="23:504" ph="{...}" />
                 <marker date="1507382211624" expanded="true" signature="30:154" ph="/// Point class stores a x and y coordinates of a point on a cartesian coordinate plane ... " />
@@ -152,6 +151,10 @@
       <find>H</find>
       <find>OutDir</find>
       <find>HEAD</find>
+      <find>A1xforce.Add</find>
+      <find>0.01</find>
+      <find>0.001</find>
+      <find>delete</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,9 +179,9 @@
       <list>
         <option value="$PROJECT_DIR$/CollisionLab1/Point.cs" />
         <option value="$PROJECT_DIR$/CollisionLab1/Ball.cs" />
-        <option value="$PROJECT_DIR$/CollisionLab1/Vector.cs" />
         <option value="C:/Windows/Microsoft.NET/Framework/v4.0.30319/Microsoft.Common.targets" />
         <option value="$PROJECT_DIR$/CollisionLab1/Program.cs" />
+        <option value="$PROJECT_DIR$/CollisionLab1/Vector.cs" />
       </list>
     </option>
   </component>
@@ -342,12 +345,14 @@
       <workItem from="1507605802248" duration="1379000" />
       <workItem from="1507607295484" duration="37000" />
       <workItem from="1507608358161" duration="202000" />
-      <workItem from="1507631588316" duration="1302000" />
+      <workItem from="1507631588316" duration="4857000" />
+      <workItem from="1507802723987" duration="3262000" />
+      <workItem from="1507943795155" duration="6052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34898000" />
+    <option name="totallyTimeSpent" value="47767000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,14 +369,14 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09110867" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.4875" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.48541668" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -384,6 +389,29 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.48541668" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -409,32 +437,32 @@
         <state relative-caret-position="399">
           <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
-            <marker date="1507637332911" expanded="false" signature="6:249" ph="..." />
-            <marker date="1507637332911" expanded="true" signature="274:18419" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="297:18417" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="344:12627" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="3828:5426" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="5441:5534" ph="/* collision for 1d head on motionless ... */" />
-            <marker date="1507637332911" expanded="true" signature="5707:6002" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
-            <marker date="1507637332911" expanded="true" signature="6086:7956" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="6370:6533" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
-            <marker date="1507637332911" expanded="true" signature="8187:9531" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10013:12333" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10099:11077" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="11098:12319" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="12637:13103" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
-            <marker date="1507637332911" expanded="true" signature="13189:13597" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="13608:13982" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
-            <marker date="1507637332911" expanded="true" signature="14058:14418" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="14428:14764" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
-            <marker date="1507637332911" expanded="true" signature="14833:15249" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15259:15632" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
-            <marker date="1507637332911" expanded="true" signature="15704:15923" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15933:16356" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
-            <marker date="1507637332911" expanded="true" signature="16422:16694" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="16704:17039" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
-            <marker date="1507637332911" expanded="true" signature="17049:17571" ph="/// getNextAngularVelocity calculated the next angular velocity of a ball ... " />
-            <marker date="1507637332911" expanded="true" signature="17697:18410" ph="{...}" />
+            <marker date="1507948572553" expanded="false" signature="6:249" ph="..." />
+            <marker date="1507948572553" expanded="true" signature="275:41802" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="298:41800" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="345:17043" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="5131:7253" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="7386:7521" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
+            <marker date="1507948572553" expanded="true" signature="7621:10117" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="8329:8492" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
+            <marker date="1507948572553" expanded="true" signature="10348:12199" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12682:16749" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12768:14517" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="14538:16735" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="17053:17519" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
+            <marker date="1507948572553" expanded="true" signature="17605:18061" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18072:18446" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
+            <marker date="1507948572553" expanded="true" signature="18522:18882" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18892:19228" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
+            <marker date="1507948572553" expanded="true" signature="19297:19713" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="19723:20096" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
+            <marker date="1507948572553" expanded="true" signature="20165:20561" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="20213:20357" ph="/* fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y)); ... */" />
+            <marker date="1507948572553" expanded="true" signature="20571:20994" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
+            <marker date="1507948572553" expanded="true" signature="21060:21332" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="21342:21677" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
+            <marker date="1507948572553" expanded="true" signature="21678:23061" ph="/* getNextAngularVelocity calculated the next angular velocity of a ball ... */" />
+            <marker date="1507948572553" expanded="true" signature="23070:41792" ph="/* getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... */" />
           </folding>
         </state>
       </provider>
@@ -456,25 +484,27 @@
         <state relative-caret-position="1976">
           <caret line="108" column="42" lean-forward="false" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
           <folding>
-            <marker date="1507588895530" expanded="false" signature="6:152" ph="..." />
-            <marker date="1507588895530" expanded="true" signature="177:4614" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="184:425" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
-            <marker date="1507588895530" expanded="true" signature="449:4612" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="527:885" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
-            <marker date="1507588895530" expanded="true" signature="941:1091" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1101:1316" ph="/// Constructs a vector given x and y components ... " />
-            <marker date="1507588895530" expanded="true" signature="1358:1540" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1558:2044" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
-            <marker date="1507588895530" expanded="true" signature="2103:3002" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2194:2408" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2494:2708" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2799:2992" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3012:3557" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
-            <marker date="1507588895530" expanded="true" signature="3609:3826" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3836:4077" ph="/// Computed the cross product of two vectors ... " />
-            <marker date="1507588895530" expanded="true" signature="4139:4605" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4309:4380" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4420:4491" ph="{...}" />
+            <marker date="1507950059546" expanded="false" signature="6:152" ph="..." />
+            <marker date="1507950059546" expanded="true" signature="154:4390" ph="/* Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... */" />
+            <marker date="1507950059546" expanded="true" signature="4414:9757" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4421:4662" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
+            <marker date="1507950059546" expanded="true" signature="4686:9755" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4764:5122" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
+            <marker date="1507950059546" expanded="true" signature="5178:5327" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5337:5552" ph="/// Constructs a vector given x and y components ... " />
+            <marker date="1507950059546" expanded="true" signature="5594:5776" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5786:6272" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
+            <marker date="1507950059546" expanded="true" signature="6331:7229" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6422:6636" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6722:6936" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7027:7219" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7239:7784" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
+            <marker date="1507950059546" expanded="true" signature="7836:8168" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8178:8419" ph="/// Computed the cross product of two vectors ... " />
+            <marker date="1507950059546" expanded="true" signature="8481:8947" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8651:8722" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8762:8833" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8957:9748" ph="/* Computed the cross product of two vectors ... */" />
           </folding>
         </state>
       </provider>
@@ -514,32 +544,32 @@
         <state relative-caret-position="399">
           <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
-            <marker date="1507637332911" expanded="false" signature="6:249" ph="..." />
-            <marker date="1507637332911" expanded="true" signature="274:18419" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="297:18417" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="344:12627" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="3828:5426" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="5441:5534" ph="/* collision for 1d head on motionless ... */" />
-            <marker date="1507637332911" expanded="true" signature="5707:6002" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
-            <marker date="1507637332911" expanded="true" signature="6086:7956" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="6370:6533" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
-            <marker date="1507637332911" expanded="true" signature="8187:9531" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10013:12333" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10099:11077" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="11098:12319" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="12637:13103" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
-            <marker date="1507637332911" expanded="true" signature="13189:13597" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="13608:13982" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
-            <marker date="1507637332911" expanded="true" signature="14058:14418" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="14428:14764" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
-            <marker date="1507637332911" expanded="true" signature="14833:15249" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15259:15632" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
-            <marker date="1507637332911" expanded="true" signature="15704:15923" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15933:16356" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
-            <marker date="1507637332911" expanded="true" signature="16422:16694" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="16704:17039" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
-            <marker date="1507637332911" expanded="true" signature="17049:17571" ph="/// getNextAngularVelocity calculated the next angular velocity of a ball ... " />
-            <marker date="1507637332911" expanded="true" signature="17697:18410" ph="{...}" />
+            <marker date="1507948572553" expanded="false" signature="6:249" ph="..." />
+            <marker date="1507948572553" expanded="true" signature="275:41802" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="298:41800" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="345:17043" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="5131:7253" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="7386:7521" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
+            <marker date="1507948572553" expanded="true" signature="7621:10117" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="8329:8492" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
+            <marker date="1507948572553" expanded="true" signature="10348:12199" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12682:16749" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12768:14517" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="14538:16735" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="17053:17519" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
+            <marker date="1507948572553" expanded="true" signature="17605:18061" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18072:18446" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
+            <marker date="1507948572553" expanded="true" signature="18522:18882" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18892:19228" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
+            <marker date="1507948572553" expanded="true" signature="19297:19713" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="19723:20096" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
+            <marker date="1507948572553" expanded="true" signature="20165:20561" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="20213:20357" ph="/* fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y)); ... */" />
+            <marker date="1507948572553" expanded="true" signature="20571:20994" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
+            <marker date="1507948572553" expanded="true" signature="21060:21332" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="21342:21677" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
+            <marker date="1507948572553" expanded="true" signature="21678:23061" ph="/* getNextAngularVelocity calculated the next angular velocity of a ball ... */" />
+            <marker date="1507948572553" expanded="true" signature="23070:41792" ph="/* getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... */" />
           </folding>
         </state>
       </provider>
@@ -561,25 +591,27 @@
         <state relative-caret-position="1976">
           <caret line="108" column="42" lean-forward="false" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
           <folding>
-            <marker date="1507588895530" expanded="false" signature="6:152" ph="..." />
-            <marker date="1507588895530" expanded="true" signature="177:4614" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="184:425" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
-            <marker date="1507588895530" expanded="true" signature="449:4612" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="527:885" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
-            <marker date="1507588895530" expanded="true" signature="941:1091" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1101:1316" ph="/// Constructs a vector given x and y components ... " />
-            <marker date="1507588895530" expanded="true" signature="1358:1540" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1558:2044" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
-            <marker date="1507588895530" expanded="true" signature="2103:3002" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2194:2408" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2494:2708" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2799:2992" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3012:3557" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
-            <marker date="1507588895530" expanded="true" signature="3609:3826" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3836:4077" ph="/// Computed the cross product of two vectors ... " />
-            <marker date="1507588895530" expanded="true" signature="4139:4605" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4309:4380" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4420:4491" ph="{...}" />
+            <marker date="1507950059546" expanded="false" signature="6:152" ph="..." />
+            <marker date="1507950059546" expanded="true" signature="154:4390" ph="/* Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... */" />
+            <marker date="1507950059546" expanded="true" signature="4414:9757" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4421:4662" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
+            <marker date="1507950059546" expanded="true" signature="4686:9755" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4764:5122" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
+            <marker date="1507950059546" expanded="true" signature="5178:5327" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5337:5552" ph="/// Constructs a vector given x and y components ... " />
+            <marker date="1507950059546" expanded="true" signature="5594:5776" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5786:6272" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
+            <marker date="1507950059546" expanded="true" signature="6331:7229" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6422:6636" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6722:6936" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7027:7219" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7239:7784" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
+            <marker date="1507950059546" expanded="true" signature="7836:8168" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8178:8419" ph="/// Computed the cross product of two vectors ... " />
+            <marker date="1507950059546" expanded="true" signature="8481:8947" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8651:8722" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8762:8833" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8957:9748" ph="/* Computed the cross product of two vectors ... */" />
           </folding>
         </state>
       </provider>
@@ -619,32 +651,32 @@
         <state relative-caret-position="399">
           <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
-            <marker date="1507637332911" expanded="false" signature="6:249" ph="..." />
-            <marker date="1507637332911" expanded="true" signature="274:18419" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="297:18417" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="344:12627" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="3828:5426" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="5441:5534" ph="/* collision for 1d head on motionless ... */" />
-            <marker date="1507637332911" expanded="true" signature="5707:6002" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
-            <marker date="1507637332911" expanded="true" signature="6086:7956" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="6370:6533" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
-            <marker date="1507637332911" expanded="true" signature="8187:9531" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10013:12333" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10099:11077" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="11098:12319" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="12637:13103" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
-            <marker date="1507637332911" expanded="true" signature="13189:13597" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="13608:13982" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
-            <marker date="1507637332911" expanded="true" signature="14058:14418" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="14428:14764" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
-            <marker date="1507637332911" expanded="true" signature="14833:15249" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15259:15632" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
-            <marker date="1507637332911" expanded="true" signature="15704:15923" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15933:16356" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
-            <marker date="1507637332911" expanded="true" signature="16422:16694" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="16704:17039" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
-            <marker date="1507637332911" expanded="true" signature="17049:17571" ph="/// getNextAngularVelocity calculated the next angular velocity of a ball ... " />
-            <marker date="1507637332911" expanded="true" signature="17697:18410" ph="{...}" />
+            <marker date="1507948572553" expanded="false" signature="6:249" ph="..." />
+            <marker date="1507948572553" expanded="true" signature="275:41802" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="298:41800" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="345:17043" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="5131:7253" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="7386:7521" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
+            <marker date="1507948572553" expanded="true" signature="7621:10117" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="8329:8492" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
+            <marker date="1507948572553" expanded="true" signature="10348:12199" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12682:16749" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12768:14517" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="14538:16735" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="17053:17519" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
+            <marker date="1507948572553" expanded="true" signature="17605:18061" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18072:18446" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
+            <marker date="1507948572553" expanded="true" signature="18522:18882" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18892:19228" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
+            <marker date="1507948572553" expanded="true" signature="19297:19713" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="19723:20096" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
+            <marker date="1507948572553" expanded="true" signature="20165:20561" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="20213:20357" ph="/* fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y)); ... */" />
+            <marker date="1507948572553" expanded="true" signature="20571:20994" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
+            <marker date="1507948572553" expanded="true" signature="21060:21332" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="21342:21677" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
+            <marker date="1507948572553" expanded="true" signature="21678:23061" ph="/* getNextAngularVelocity calculated the next angular velocity of a ball ... */" />
+            <marker date="1507948572553" expanded="true" signature="23070:41792" ph="/* getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... */" />
           </folding>
         </state>
       </provider>
@@ -666,25 +698,27 @@
         <state relative-caret-position="1976">
           <caret line="108" column="42" lean-forward="false" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
           <folding>
-            <marker date="1507588895530" expanded="false" signature="6:152" ph="..." />
-            <marker date="1507588895530" expanded="true" signature="177:4614" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="184:425" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
-            <marker date="1507588895530" expanded="true" signature="449:4612" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="527:885" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
-            <marker date="1507588895530" expanded="true" signature="941:1091" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1101:1316" ph="/// Constructs a vector given x and y components ... " />
-            <marker date="1507588895530" expanded="true" signature="1358:1540" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1558:2044" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
-            <marker date="1507588895530" expanded="true" signature="2103:3002" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2194:2408" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2494:2708" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2799:2992" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3012:3557" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
-            <marker date="1507588895530" expanded="true" signature="3609:3826" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3836:4077" ph="/// Computed the cross product of two vectors ... " />
-            <marker date="1507588895530" expanded="true" signature="4139:4605" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4309:4380" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4420:4491" ph="{...}" />
+            <marker date="1507950059546" expanded="false" signature="6:152" ph="..." />
+            <marker date="1507950059546" expanded="true" signature="154:4390" ph="/* Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... */" />
+            <marker date="1507950059546" expanded="true" signature="4414:9757" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4421:4662" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
+            <marker date="1507950059546" expanded="true" signature="4686:9755" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4764:5122" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
+            <marker date="1507950059546" expanded="true" signature="5178:5327" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5337:5552" ph="/// Constructs a vector given x and y components ... " />
+            <marker date="1507950059546" expanded="true" signature="5594:5776" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5786:6272" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
+            <marker date="1507950059546" expanded="true" signature="6331:7229" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6422:6636" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6722:6936" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7027:7219" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7239:7784" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
+            <marker date="1507950059546" expanded="true" signature="7836:8168" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8178:8419" ph="/// Computed the cross product of two vectors ... " />
+            <marker date="1507950059546" expanded="true" signature="8481:8947" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8651:8722" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8762:8833" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8957:9748" ph="/* Computed the cross product of two vectors ... */" />
           </folding>
         </state>
       </provider>
@@ -724,32 +758,32 @@
         <state relative-caret-position="399">
           <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
-            <marker date="1507637332911" expanded="false" signature="6:249" ph="..." />
-            <marker date="1507637332911" expanded="true" signature="274:18419" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="297:18417" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="344:12627" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="3828:5426" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="5441:5534" ph="/* collision for 1d head on motionless ... */" />
-            <marker date="1507637332911" expanded="true" signature="5707:6002" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
-            <marker date="1507637332911" expanded="true" signature="6086:7956" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="6370:6533" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
-            <marker date="1507637332911" expanded="true" signature="8187:9531" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10013:12333" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10099:11077" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="11098:12319" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="12637:13103" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
-            <marker date="1507637332911" expanded="true" signature="13189:13597" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="13608:13982" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
-            <marker date="1507637332911" expanded="true" signature="14058:14418" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="14428:14764" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
-            <marker date="1507637332911" expanded="true" signature="14833:15249" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15259:15632" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
-            <marker date="1507637332911" expanded="true" signature="15704:15923" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15933:16356" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
-            <marker date="1507637332911" expanded="true" signature="16422:16694" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="16704:17039" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
-            <marker date="1507637332911" expanded="true" signature="17049:17571" ph="/// getNextAngularVelocity calculated the next angular velocity of a ball ... " />
-            <marker date="1507637332911" expanded="true" signature="17697:18410" ph="{...}" />
+            <marker date="1507948572553" expanded="false" signature="6:249" ph="..." />
+            <marker date="1507948572553" expanded="true" signature="275:41802" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="298:41800" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="345:17043" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="5131:7253" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="7386:7521" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
+            <marker date="1507948572553" expanded="true" signature="7621:10117" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="8329:8492" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
+            <marker date="1507948572553" expanded="true" signature="10348:12199" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12682:16749" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12768:14517" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="14538:16735" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="17053:17519" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
+            <marker date="1507948572553" expanded="true" signature="17605:18061" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18072:18446" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
+            <marker date="1507948572553" expanded="true" signature="18522:18882" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18892:19228" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
+            <marker date="1507948572553" expanded="true" signature="19297:19713" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="19723:20096" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
+            <marker date="1507948572553" expanded="true" signature="20165:20561" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="20213:20357" ph="/* fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y)); ... */" />
+            <marker date="1507948572553" expanded="true" signature="20571:20994" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
+            <marker date="1507948572553" expanded="true" signature="21060:21332" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="21342:21677" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
+            <marker date="1507948572553" expanded="true" signature="21678:23061" ph="/* getNextAngularVelocity calculated the next angular velocity of a ball ... */" />
+            <marker date="1507948572553" expanded="true" signature="23070:41792" ph="/* getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... */" />
           </folding>
         </state>
       </provider>
@@ -771,25 +805,27 @@
         <state relative-caret-position="1976">
           <caret line="108" column="42" lean-forward="false" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
           <folding>
-            <marker date="1507588895530" expanded="false" signature="6:152" ph="..." />
-            <marker date="1507588895530" expanded="true" signature="177:4614" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="184:425" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
-            <marker date="1507588895530" expanded="true" signature="449:4612" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="527:885" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
-            <marker date="1507588895530" expanded="true" signature="941:1091" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1101:1316" ph="/// Constructs a vector given x and y components ... " />
-            <marker date="1507588895530" expanded="true" signature="1358:1540" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1558:2044" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
-            <marker date="1507588895530" expanded="true" signature="2103:3002" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2194:2408" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2494:2708" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2799:2992" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3012:3557" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
-            <marker date="1507588895530" expanded="true" signature="3609:3826" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3836:4077" ph="/// Computed the cross product of two vectors ... " />
-            <marker date="1507588895530" expanded="true" signature="4139:4605" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4309:4380" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4420:4491" ph="{...}" />
+            <marker date="1507950059546" expanded="false" signature="6:152" ph="..." />
+            <marker date="1507950059546" expanded="true" signature="154:4390" ph="/* Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... */" />
+            <marker date="1507950059546" expanded="true" signature="4414:9757" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4421:4662" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
+            <marker date="1507950059546" expanded="true" signature="4686:9755" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4764:5122" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
+            <marker date="1507950059546" expanded="true" signature="5178:5327" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5337:5552" ph="/// Constructs a vector given x and y components ... " />
+            <marker date="1507950059546" expanded="true" signature="5594:5776" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5786:6272" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
+            <marker date="1507950059546" expanded="true" signature="6331:7229" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6422:6636" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6722:6936" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7027:7219" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7239:7784" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
+            <marker date="1507950059546" expanded="true" signature="7836:8168" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8178:8419" ph="/// Computed the cross product of two vectors ... " />
+            <marker date="1507950059546" expanded="true" signature="8481:8947" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8651:8722" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8762:8833" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8957:9748" ph="/* Computed the cross product of two vectors ... */" />
           </folding>
         </state>
       </provider>
@@ -829,32 +865,32 @@
         <state relative-caret-position="209">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="22" selection-end-column="74" />
           <folding>
-            <marker date="1507637332911" expanded="false" signature="6:249" ph="..." />
-            <marker date="1507637332911" expanded="true" signature="274:18419" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="297:18417" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="344:12627" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="3828:5426" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="5441:5534" ph="/* collision for 1d head on motionless ... */" />
-            <marker date="1507637332911" expanded="true" signature="5707:6002" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
-            <marker date="1507637332911" expanded="true" signature="6086:7956" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="6370:6533" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
-            <marker date="1507637332911" expanded="true" signature="8187:9531" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10013:12333" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10099:11077" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="11098:12319" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="12637:13103" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
-            <marker date="1507637332911" expanded="true" signature="13189:13597" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="13608:13982" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
-            <marker date="1507637332911" expanded="true" signature="14058:14418" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="14428:14764" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
-            <marker date="1507637332911" expanded="true" signature="14833:15249" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15259:15632" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
-            <marker date="1507637332911" expanded="true" signature="15704:15923" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15933:16356" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
-            <marker date="1507637332911" expanded="true" signature="16422:16694" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="16704:17039" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
-            <marker date="1507637332911" expanded="true" signature="17049:17571" ph="/// getNextAngularVelocity calculated the next angular velocity of a ball ... " />
-            <marker date="1507637332911" expanded="true" signature="17697:18410" ph="{...}" />
+            <marker date="1507948572553" expanded="false" signature="6:249" ph="..." />
+            <marker date="1507948572553" expanded="true" signature="275:41802" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="298:41800" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="345:17043" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="5131:7253" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="7386:7521" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
+            <marker date="1507948572553" expanded="true" signature="7621:10117" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="8329:8492" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
+            <marker date="1507948572553" expanded="true" signature="10348:12199" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12682:16749" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12768:14517" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="14538:16735" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="17053:17519" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
+            <marker date="1507948572553" expanded="true" signature="17605:18061" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18072:18446" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
+            <marker date="1507948572553" expanded="true" signature="18522:18882" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18892:19228" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
+            <marker date="1507948572553" expanded="true" signature="19297:19713" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="19723:20096" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
+            <marker date="1507948572553" expanded="true" signature="20165:20561" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="20213:20357" ph="/* fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y)); ... */" />
+            <marker date="1507948572553" expanded="true" signature="20571:20994" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
+            <marker date="1507948572553" expanded="true" signature="21060:21332" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="21342:21677" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
+            <marker date="1507948572553" expanded="true" signature="21678:23061" ph="/* getNextAngularVelocity calculated the next angular velocity of a ball ... */" />
+            <marker date="1507948572553" expanded="true" signature="23070:41792" ph="/* getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... */" />
           </folding>
         </state>
       </provider>
@@ -876,25 +912,27 @@
         <state relative-caret-position="1976">
           <caret line="108" column="42" lean-forward="false" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
           <folding>
-            <marker date="1507588895530" expanded="false" signature="6:152" ph="..." />
-            <marker date="1507588895530" expanded="true" signature="177:4614" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="184:425" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
-            <marker date="1507588895530" expanded="true" signature="449:4612" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="527:885" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
-            <marker date="1507588895530" expanded="true" signature="941:1091" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1101:1316" ph="/// Constructs a vector given x and y components ... " />
-            <marker date="1507588895530" expanded="true" signature="1358:1540" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1558:2044" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
-            <marker date="1507588895530" expanded="true" signature="2103:3002" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2194:2408" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2494:2708" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2799:2992" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3012:3557" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
-            <marker date="1507588895530" expanded="true" signature="3609:3826" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3836:4077" ph="/// Computed the cross product of two vectors ... " />
-            <marker date="1507588895530" expanded="true" signature="4139:4605" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4309:4380" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4420:4491" ph="{...}" />
+            <marker date="1507950059546" expanded="false" signature="6:152" ph="..." />
+            <marker date="1507950059546" expanded="true" signature="154:4390" ph="/* Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... */" />
+            <marker date="1507950059546" expanded="true" signature="4414:9757" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4421:4662" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
+            <marker date="1507950059546" expanded="true" signature="4686:9755" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4764:5122" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
+            <marker date="1507950059546" expanded="true" signature="5178:5327" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5337:5552" ph="/// Constructs a vector given x and y components ... " />
+            <marker date="1507950059546" expanded="true" signature="5594:5776" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5786:6272" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
+            <marker date="1507950059546" expanded="true" signature="6331:7229" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6422:6636" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6722:6936" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7027:7219" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7239:7784" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
+            <marker date="1507950059546" expanded="true" signature="7836:8168" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8178:8419" ph="/// Computed the cross product of two vectors ... " />
+            <marker date="1507950059546" expanded="true" signature="8481:8947" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8651:8722" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8762:8833" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8957:9748" ph="/* Computed the cross product of two vectors ... */" />
           </folding>
         </state>
       </provider>
@@ -934,32 +972,32 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507637332911" expanded="false" signature="6:249" ph="..." />
-            <marker date="1507637332911" expanded="true" signature="274:18419" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="297:18417" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="344:12627" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="3828:5426" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="5441:5534" ph="/* collision for 1d head on motionless ... */" />
-            <marker date="1507637332911" expanded="true" signature="5707:6002" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
-            <marker date="1507637332911" expanded="true" signature="6086:7956" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="6370:6533" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
-            <marker date="1507637332911" expanded="true" signature="8187:9531" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10013:12333" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10099:11077" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="11098:12319" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="12637:13103" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
-            <marker date="1507637332911" expanded="true" signature="13189:13597" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="13608:13982" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
-            <marker date="1507637332911" expanded="true" signature="14058:14418" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="14428:14764" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
-            <marker date="1507637332911" expanded="true" signature="14833:15249" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15259:15632" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
-            <marker date="1507637332911" expanded="true" signature="15704:15923" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15933:16356" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
-            <marker date="1507637332911" expanded="true" signature="16422:16694" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="16704:17039" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
-            <marker date="1507637332911" expanded="true" signature="17049:17571" ph="/// getNextAngularVelocity calculated the next angular velocity of a ball ... " />
-            <marker date="1507637332911" expanded="true" signature="17697:18410" ph="{...}" />
+            <marker date="1507948572553" expanded="false" signature="6:249" ph="..." />
+            <marker date="1507948572553" expanded="true" signature="275:41802" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="298:41800" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="345:17043" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="5131:7253" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="7386:7521" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
+            <marker date="1507948572553" expanded="true" signature="7621:10117" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="8329:8492" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
+            <marker date="1507948572553" expanded="true" signature="10348:12199" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12682:16749" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12768:14517" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="14538:16735" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="17053:17519" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
+            <marker date="1507948572553" expanded="true" signature="17605:18061" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18072:18446" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
+            <marker date="1507948572553" expanded="true" signature="18522:18882" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18892:19228" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
+            <marker date="1507948572553" expanded="true" signature="19297:19713" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="19723:20096" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
+            <marker date="1507948572553" expanded="true" signature="20165:20561" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="20213:20357" ph="/* fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y)); ... */" />
+            <marker date="1507948572553" expanded="true" signature="20571:20994" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
+            <marker date="1507948572553" expanded="true" signature="21060:21332" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="21342:21677" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
+            <marker date="1507948572553" expanded="true" signature="21678:23061" ph="/* getNextAngularVelocity calculated the next angular velocity of a ball ... */" />
+            <marker date="1507948572553" expanded="true" signature="23070:41792" ph="/* getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... */" />
           </folding>
         </state>
       </provider>
@@ -981,25 +1019,27 @@
         <state relative-caret-position="1520">
           <caret line="84" column="21" lean-forward="false" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
           <folding>
-            <marker date="1507588895530" expanded="false" signature="6:152" ph="..." />
-            <marker date="1507588895530" expanded="true" signature="177:4614" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="184:425" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
-            <marker date="1507588895530" expanded="true" signature="449:4612" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="527:885" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
-            <marker date="1507588895530" expanded="true" signature="941:1091" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1101:1316" ph="/// Constructs a vector given x and y components ... " />
-            <marker date="1507588895530" expanded="true" signature="1358:1540" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1558:2044" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
-            <marker date="1507588895530" expanded="true" signature="2103:3002" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2194:2408" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2494:2708" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2799:2992" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3012:3557" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
-            <marker date="1507588895530" expanded="true" signature="3609:3826" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3836:4077" ph="/// Computed the cross product of two vectors ... " />
-            <marker date="1507588895530" expanded="true" signature="4139:4605" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4309:4380" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4420:4491" ph="{...}" />
+            <marker date="1507950059546" expanded="false" signature="6:152" ph="..." />
+            <marker date="1507950059546" expanded="true" signature="154:4390" ph="/* Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... */" />
+            <marker date="1507950059546" expanded="true" signature="4414:9757" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4421:4662" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
+            <marker date="1507950059546" expanded="true" signature="4686:9755" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4764:5122" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
+            <marker date="1507950059546" expanded="true" signature="5178:5327" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5337:5552" ph="/// Constructs a vector given x and y components ... " />
+            <marker date="1507950059546" expanded="true" signature="5594:5776" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5786:6272" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
+            <marker date="1507950059546" expanded="true" signature="6331:7229" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6422:6636" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6722:6936" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7027:7219" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7239:7784" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
+            <marker date="1507950059546" expanded="true" signature="7836:8168" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8178:8419" ph="/// Computed the cross product of two vectors ... " />
+            <marker date="1507950059546" expanded="true" signature="8481:8947" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8651:8722" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8762:8833" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8957:9748" ph="/* Computed the cross product of two vectors ... */" />
           </folding>
         </state>
       </provider>
@@ -1039,32 +1079,32 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507637332911" expanded="false" signature="6:249" ph="..." />
-            <marker date="1507637332911" expanded="true" signature="274:18419" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="297:18417" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="344:12627" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="3828:5426" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="5441:5534" ph="/* collision for 1d head on motionless ... */" />
-            <marker date="1507637332911" expanded="true" signature="5707:6002" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
-            <marker date="1507637332911" expanded="true" signature="6086:7956" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="6370:6533" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
-            <marker date="1507637332911" expanded="true" signature="8187:9531" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10013:12333" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10099:11077" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="11098:12319" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="12637:13103" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
-            <marker date="1507637332911" expanded="true" signature="13189:13597" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="13608:13982" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
-            <marker date="1507637332911" expanded="true" signature="14058:14418" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="14428:14764" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
-            <marker date="1507637332911" expanded="true" signature="14833:15249" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15259:15632" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
-            <marker date="1507637332911" expanded="true" signature="15704:15923" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15933:16356" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
-            <marker date="1507637332911" expanded="true" signature="16422:16694" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="16704:17039" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
-            <marker date="1507637332911" expanded="true" signature="17049:17571" ph="/// getNextAngularVelocity calculated the next angular velocity of a ball ... " />
-            <marker date="1507637332911" expanded="true" signature="17697:18410" ph="{...}" />
+            <marker date="1507948572553" expanded="false" signature="6:249" ph="..." />
+            <marker date="1507948572553" expanded="true" signature="275:41802" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="298:41800" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="345:17043" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="5131:7253" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="7386:7521" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
+            <marker date="1507948572553" expanded="true" signature="7621:10117" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="8329:8492" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
+            <marker date="1507948572553" expanded="true" signature="10348:12199" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12682:16749" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12768:14517" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="14538:16735" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="17053:17519" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
+            <marker date="1507948572553" expanded="true" signature="17605:18061" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18072:18446" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
+            <marker date="1507948572553" expanded="true" signature="18522:18882" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18892:19228" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
+            <marker date="1507948572553" expanded="true" signature="19297:19713" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="19723:20096" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
+            <marker date="1507948572553" expanded="true" signature="20165:20561" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="20213:20357" ph="/* fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y)); ... */" />
+            <marker date="1507948572553" expanded="true" signature="20571:20994" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
+            <marker date="1507948572553" expanded="true" signature="21060:21332" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="21342:21677" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
+            <marker date="1507948572553" expanded="true" signature="21678:23061" ph="/* getNextAngularVelocity calculated the next angular velocity of a ball ... */" />
+            <marker date="1507948572553" expanded="true" signature="23070:41792" ph="/* getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... */" />
           </folding>
         </state>
       </provider>
@@ -1100,25 +1140,27 @@
         <state relative-caret-position="1672">
           <caret line="88" column="12" lean-forward="false" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
           <folding>
-            <marker date="1507588895530" expanded="false" signature="6:152" ph="..." />
-            <marker date="1507588895530" expanded="true" signature="177:4614" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="184:425" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
-            <marker date="1507588895530" expanded="true" signature="449:4612" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="527:885" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
-            <marker date="1507588895530" expanded="true" signature="941:1091" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1101:1316" ph="/// Constructs a vector given x and y components ... " />
-            <marker date="1507588895530" expanded="true" signature="1358:1540" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1558:2044" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
-            <marker date="1507588895530" expanded="true" signature="2103:3002" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2194:2408" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2494:2708" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2799:2992" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3012:3557" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
-            <marker date="1507588895530" expanded="true" signature="3609:3826" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3836:4077" ph="/// Computed the cross product of two vectors ... " />
-            <marker date="1507588895530" expanded="true" signature="4139:4605" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4309:4380" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4420:4491" ph="{...}" />
+            <marker date="1507950059546" expanded="false" signature="6:152" ph="..." />
+            <marker date="1507950059546" expanded="true" signature="154:4390" ph="/* Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... */" />
+            <marker date="1507950059546" expanded="true" signature="4414:9757" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4421:4662" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
+            <marker date="1507950059546" expanded="true" signature="4686:9755" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4764:5122" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
+            <marker date="1507950059546" expanded="true" signature="5178:5327" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5337:5552" ph="/// Constructs a vector given x and y components ... " />
+            <marker date="1507950059546" expanded="true" signature="5594:5776" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5786:6272" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
+            <marker date="1507950059546" expanded="true" signature="6331:7229" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6422:6636" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6722:6936" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7027:7219" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7239:7784" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
+            <marker date="1507950059546" expanded="true" signature="7836:8168" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8178:8419" ph="/// Computed the cross product of two vectors ... " />
+            <marker date="1507950059546" expanded="true" signature="8481:8947" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8651:8722" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8762:8833" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8957:9748" ph="/* Computed the cross product of two vectors ... */" />
           </folding>
         </state>
       </provider>
@@ -1136,32 +1178,32 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507637332911" expanded="false" signature="6:249" ph="..." />
-            <marker date="1507637332911" expanded="true" signature="274:18419" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="297:18417" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="344:12627" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="3828:5426" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="5441:5534" ph="/* collision for 1d head on motionless ... */" />
-            <marker date="1507637332911" expanded="true" signature="5707:6002" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
-            <marker date="1507637332911" expanded="true" signature="6086:7956" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="6370:6533" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
-            <marker date="1507637332911" expanded="true" signature="8187:9531" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10013:12333" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10099:11077" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="11098:12319" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="12637:13103" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
-            <marker date="1507637332911" expanded="true" signature="13189:13597" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="13608:13982" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
-            <marker date="1507637332911" expanded="true" signature="14058:14418" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="14428:14764" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
-            <marker date="1507637332911" expanded="true" signature="14833:15249" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15259:15632" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
-            <marker date="1507637332911" expanded="true" signature="15704:15923" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15933:16356" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
-            <marker date="1507637332911" expanded="true" signature="16422:16694" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="16704:17039" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
-            <marker date="1507637332911" expanded="true" signature="17049:17571" ph="/// getNextAngularVelocity calculated the next angular velocity of a ball ... " />
-            <marker date="1507637332911" expanded="true" signature="17697:18410" ph="{...}" />
+            <marker date="1507948572553" expanded="false" signature="6:249" ph="..." />
+            <marker date="1507948572553" expanded="true" signature="275:41802" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="298:41800" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="345:17043" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="5131:7253" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="7386:7521" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
+            <marker date="1507948572553" expanded="true" signature="7621:10117" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="8329:8492" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
+            <marker date="1507948572553" expanded="true" signature="10348:12199" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12682:16749" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12768:14517" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="14538:16735" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="17053:17519" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
+            <marker date="1507948572553" expanded="true" signature="17605:18061" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18072:18446" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
+            <marker date="1507948572553" expanded="true" signature="18522:18882" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18892:19228" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
+            <marker date="1507948572553" expanded="true" signature="19297:19713" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="19723:20096" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
+            <marker date="1507948572553" expanded="true" signature="20165:20561" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="20213:20357" ph="/* fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y)); ... */" />
+            <marker date="1507948572553" expanded="true" signature="20571:20994" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
+            <marker date="1507948572553" expanded="true" signature="21060:21332" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="21342:21677" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
+            <marker date="1507948572553" expanded="true" signature="21678:23061" ph="/* getNextAngularVelocity calculated the next angular velocity of a ball ... */" />
+            <marker date="1507948572553" expanded="true" signature="23070:41792" ph="/* getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... */" />
           </folding>
         </state>
       </provider>
@@ -1171,20 +1213,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollisionLab1/Point.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <marker date="1507382211624" expanded="true" signature="23:504" ph="{...}" />
-            <marker date="1507382211624" expanded="true" signature="30:154" ph="/// Point class stores a x and y coordinates of a point on a cartesian coordinate plane ... " />
-            <marker date="1507382211624" expanded="true" signature="177:502" ph="{...}" />
-            <marker date="1507382211624" expanded="true" signature="221:387" ph="/// Default constructor ... " />
-            <marker date="1507382211624" expanded="true" signature="428:496" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1202,18 +1230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollisionLab1/Ball.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <marker date="1507586213182" expanded="true" signature="38:872" ph="{...}" />
-            <marker date="1507586213182" expanded="true" signature="62:870" ph="{...}" />
-            <marker date="1507586213182" expanded="true" signature="391:855" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Windows/Microsoft.NET/Framework/v4.0.30319/Microsoft.Common.targets">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79230">
@@ -1222,65 +1238,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollisionLab1/Vector.cs">
+    <entry file="file://$PROJECT_DIR$/CollisionLab1/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="108" column="42" lean-forward="false" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
+        <state relative-caret-position="169">
+          <caret line="480" column="0" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="499" selection-end-column="9" />
           <folding>
-            <marker date="1507588895530" expanded="false" signature="6:152" ph="..." />
-            <marker date="1507588895530" expanded="true" signature="177:4614" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="184:425" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
-            <marker date="1507588895530" expanded="true" signature="449:4612" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="527:885" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
-            <marker date="1507588895530" expanded="true" signature="941:1091" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1101:1316" ph="/// Constructs a vector given x and y components ... " />
-            <marker date="1507588895530" expanded="true" signature="1358:1540" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="1558:2044" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
-            <marker date="1507588895530" expanded="true" signature="2103:3002" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2194:2408" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2494:2708" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="2799:2992" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3012:3557" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
-            <marker date="1507588895530" expanded="true" signature="3609:3826" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="3836:4077" ph="/// Computed the cross product of two vectors ... " />
-            <marker date="1507588895530" expanded="true" signature="4139:4605" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4309:4380" ph="{...}" />
-            <marker date="1507588895530" expanded="true" signature="4420:4491" ph="{...}" />
+            <marker date="1507948572553" expanded="false" signature="6:249" ph="..." />
+            <marker date="1507948572553" expanded="true" signature="275:41802" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="298:41800" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="345:17043" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="5131:7253" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="7386:7521" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
+            <marker date="1507948572553" expanded="true" signature="7621:10117" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="8329:8492" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
+            <marker date="1507948572553" expanded="true" signature="10348:12199" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12682:16749" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="12768:14517" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="14538:16735" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="17053:17519" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
+            <marker date="1507948572553" expanded="true" signature="17605:18061" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18072:18446" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
+            <marker date="1507948572553" expanded="true" signature="18522:18882" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="18892:19228" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
+            <marker date="1507948572553" expanded="true" signature="19297:19713" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="19723:20096" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
+            <marker date="1507948572553" expanded="true" signature="20165:20561" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="20213:20357" ph="/* fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y)); ... */" />
+            <marker date="1507948572553" expanded="true" signature="20571:20994" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
+            <marker date="1507948572553" expanded="true" signature="21060:21332" ph="{...}" />
+            <marker date="1507948572553" expanded="true" signature="21342:21677" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
+            <marker date="1507948572553" expanded="true" signature="21678:23061" ph="/* getNextAngularVelocity calculated the next angular velocity of a ball ... */" />
+            <marker date="1507948572553" expanded="true" signature="23070:41792" ph="/* getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollisionLab1/Program.cs">
+    <entry file="file://$PROJECT_DIR$/CollisionLab1/Vector.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="141" column="28" lean-forward="true" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+        <state relative-caret-position="2204">
+          <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="260" selection-end-column="5" />
           <folding>
-            <marker date="1507637332911" expanded="false" signature="6:249" ph="..." />
-            <marker date="1507637332911" expanded="true" signature="274:18419" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="297:18417" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="344:12627" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="3828:5426" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="5441:5534" ph="/* collision for 1d head on motionless ... */" />
-            <marker date="1507637332911" expanded="true" signature="5707:6002" ph="/* force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession ... */" />
-            <marker date="1507637332911" expanded="true" signature="6086:7956" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="6370:6533" ph="/* acceleration of ball 1 is calculated with the force exerted by BALL 2 ... */" />
-            <marker date="1507637332911" expanded="true" signature="8187:9531" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10013:12333" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="10099:11077" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="11098:12319" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="12637:13103" ph="/// getNextPosition returns the next displacement of an object given intial displacement, velocity, acceleration, ... " />
-            <marker date="1507637332911" expanded="true" signature="13189:13597" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="13608:13982" ph="/// getNextVelocity returns the next velocity vector of an object given intial velocity, acceleration, and time ... " />
-            <marker date="1507637332911" expanded="true" signature="14058:14418" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="14428:14764" ph="/// getNextAcceleration returns the acceleration vector of an object given the force acting upon it (not the forc ... " />
-            <marker date="1507637332911" expanded="true" signature="14833:15249" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15259:15632" ph="/// getNextForce returns the force vector exerted by the ball through compression ... " />
-            <marker date="1507637332911" expanded="true" signature="15704:15923" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="15933:16356" ph="/// getCollisionPoint returns either the point at which the two objects touch during collision ... " />
-            <marker date="1507637332911" expanded="true" signature="16422:16694" ph="{...}" />
-            <marker date="1507637332911" expanded="true" signature="16704:17039" ph="/* static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2) ... */" />
-            <marker date="1507637332911" expanded="true" signature="17049:17571" ph="/// getNextAngularVelocity calculated the next angular velocity of a ball ... " />
-            <marker date="1507637332911" expanded="true" signature="17697:18410" ph="{...}" />
+            <marker date="1507950059546" expanded="false" signature="6:152" ph="..." />
+            <marker date="1507950059546" expanded="true" signature="154:4390" ph="/* Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... */" />
+            <marker date="1507950059546" expanded="true" signature="4414:9757" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4421:4662" ph="/// Stores the components and the angle counter-clockwise from the positive x-axis of a vector ... " />
+            <marker date="1507950059546" expanded="true" signature="4686:9755" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="4764:5122" ph="/// Constructs a vector given magnitude of x and y components and the angle of the vector counter-clockwise from ... " />
+            <marker date="1507950059546" expanded="true" signature="5178:5327" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5337:5552" ph="/// Constructs a vector given x and y components ... " />
+            <marker date="1507950059546" expanded="true" signature="5594:5776" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="5786:6272" ph="/// Constructs a vector given the magnitude of either the x or y component or the magnitude of the vectir  ... " />
+            <marker date="1507950059546" expanded="true" signature="6331:7229" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6422:6636" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="6722:6936" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7027:7219" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="7239:7784" ph="/// Constructs a vector going FROM POINT A TO POINT B ... " />
+            <marker date="1507950059546" expanded="true" signature="7836:8168" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8178:8419" ph="/// Computed the cross product of two vectors ... " />
+            <marker date="1507950059546" expanded="true" signature="8481:8947" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8651:8722" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8762:8833" ph="{...}" />
+            <marker date="1507950059546" expanded="true" signature="8957:9748" ph="/* Computed the cross product of two vectors ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollisionLab1/Ball.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="103" lean-forward="false" selection-start-line="11" selection-start-column="103" selection-end-line="11" selection-end-column="103" />
+          <folding>
+            <marker date="1507586213182" expanded="true" signature="38:872" ph="{...}" />
+            <marker date="1507586213182" expanded="true" signature="62:870" ph="{...}" />
+            <marker date="1507586213182" expanded="true" signature="391:855" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollisionLab1/Point.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <marker date="1507382211624" expanded="true" signature="23:504" ph="{...}" />
+            <marker date="1507382211624" expanded="true" signature="30:154" ph="/// Point class stores a x and y coordinates of a point on a cartesian coordinate plane ... " />
+            <marker date="1507382211624" expanded="true" signature="177:502" ph="{...}" />
+            <marker date="1507382211624" expanded="true" signature="221:387" ph="/// Default constructor ... " />
+            <marker date="1507382211624" expanded="true" signature="428:496" ph="{...}" />
           </folding>
         </state>
       </provider>

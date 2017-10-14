@@ -8,7 +8,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-/*
+
 namespace CollisionLab1
 {
     class Collision
@@ -17,53 +17,11 @@ namespace CollisionLab1
 
         static void Main(string[] args)
         {
+            double deltaT = 0.0009;
             
-<<<<<<< HEAD
-
-            //creates 2 ball objects
-            Ball b1 = new Ball(-1, 0, 5, 0, 2, 1165.66, 2, 0, 0, false, 1);
-            Ball b2 = new Ball(0, 0, 3, 0, 2, 1165.66, 2, 0, 0, false, 1);
-
-            List<double> time = new List<double>(); //creates a list for each time interval
-            time.Add(0); //adds the time at 0
-
-            List<double> Velocity1x = new List<double>(); //creates a list for each velocity of ball 1
-            Velocity1x.Add(b1.v.x); //adds the velocity of ball 1 at time 0
-            List<double> Velocity1y = new List<double>(); //creates a list for each velocity of ball 1
-            Velocity1y.Add(b1.v.y); //adds the velocity of ball 1 at time 0
-            List<double> Vfinal1 = new List<double>(); //final velocity of ball 1
-            Vfinal1.Add(b1.v.mag);
-            List<double> Position1x = new List<double>(); //creates a list for each of the positions of centre of ball 1
-            Position1x.Add(b1.pos.x); //adds the position at time 0
-            List<double> Position1y = new List<double>(); //creates a list for each of the positions of centre of ball 1
-            Position1y.Add(b1.pos.y); //adds the position at time 0
-            List<double> A1x = new List<double>(); //creates a list for each of the positions of centre of ball 1
-            A1x.Add(b1.a.x); //adds the position at time 0
-            List<double> A1y = new List<double>(); //creates a list for each of the positions of centre of ball 1
-            A1y.Add(b1.a.y); //adds the position at time 0
-            List<double> A1final = new List<double>(); //creates a list for each of the positions of centre of ball 1
-            A1final.Add(b1.a.mag); //adds the position at time 0
-
-            List<double> Velocity2x = new List<double>(); //creates a list for each velocity of ball 2
-            Velocity2x.Add(b2.v.x); //adds the velocity of ball 2 at time 0
-            List<double> Velocity2y = new List<double>(); //creates a list for each velocity of ball 2
-            Velocity2y.Add(b2.v.y); //adds the velocity of ball 2 at time 0
-            List<double> Vfinal2 = new List<double>(); //final velocity of ball 2
-            Vfinal2.Add(b2.v.mag);
-            List<double> Position2x = new List<double>(); //creates a list for each of the positions of centre of ball 1
-            Position2x.Add(b2.pos.x); //adds the position at time 0
-            List<double> Position2y = new List<double>(); //creates a list for each of the positions of centre of ball 1
-            Position2y.Add(b2.pos.y); //adds the position at time 0
-            List<double> A2x = new List<double>(); //creates a list for each of the positions of centre of ball 1
-            A2x.Add(b2.a.x); //adds the position at time 0
-            List<double> A2y = new List<double>(); //creates a list for each of the positions of centre of ball 1
-            A2y.Add(b2.a.y); //adds the position at time 0
-            List<double> A2final = new List<double>(); //creates a list for each of the positions of centre of ball 1
-            A2final.Add(b2.a.mag); //adds the position at time 0
-=======
             //creates 2 ball objects (posx, posy, velocity, acceleration, radius, spring constant, mass, rotational speed, angle, if glancing)
-            Ball b1 = new Ball(-3, 0, 5, 0, 2, 1165.66, 5,0,0,false);
-            Ball b2 = new Ball(3, 0, 3, 0, 2, 1165.66, 5, 0,0,false);
+            Ball b1 = new Ball(-3, 0, 5, 0, 2, 1130, 5,0,0,false, 1);
+            Ball b2 = new Ball(3, 0, 3, 0, 2, 1130, 5, 0,0,false, 1);
             
             List<double> time = new List<double>();//creates a list for each time interval
             time.Add(0);//adds the time at 0
@@ -88,6 +46,10 @@ namespace CollisionLab1
             A1final.Add(b1.a.mag);//adds the position at time 0
             List<double> A1angle = new List<double>();
             A1angle.Add(b1.a.angle);
+            List<double> A1xforce = new List<double>();
+            A1xforce.Add(0);
+            List<double> A1yforce = new List<double>();
+            A1yforce.Add(0);
             List<double> A1force = new List<double>();
             A1force.Add(0);
             List<double> A1fangle = new List<double>();
@@ -113,57 +75,58 @@ namespace CollisionLab1
             A2final.Add(b2.a.mag);//adds the position at time 0
             List<double> A2angle = new List<double>();
             A2angle.Add(b2.a.angle);
+            List<double> A2xforce = new List<double>();
+            A2xforce.Add(0);
+            List<double> A2yforce = new List<double>();
+            A2yforce.Add(0);
             List<double> A2force = new List<double>();
             A2force.Add(0);
             List<double> A2fangle = new List<double>();
             A2fangle.Add(0);
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
+
+            List<double> cx = new List<double>();
+            cx.Add(0);
+            List<double> cy = new List<double>();
+            cy.Add(0);
 
 
             int count = 0; //timer counter
 
             //loop for before the balls meet
-<<<<<<< HEAD
             count++; //increases the time by one interval
             double s = Math.Sqrt(Math.Pow(b2.pos.x - b1.pos.x, 2) +
                                  Math.Pow(b2.pos.y - b1.pos.y, 2)); //checks the distance between balls
-=======
-            count++;//increases the time by one interval
-            double s = Math.Sqrt(Math.Pow(b2.pos.x - b1.pos.x, 2) + Math.Pow(b2.pos.y - b1.pos.y, 2)); //checks the distance between balls
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
+
             while (b1.radius + b2.radius < s)
             {
                 
                 //adds increments time in time list by ten milliseconds 
-                time.Add(count * 0.01);
+                time.Add(count * deltaT);
 
                 //find new position of ball 1
-                b1.s = getNextPosition(b1.s, b1.v, b1.a, 0.01);
+                b1.s = getNextPosition(b1.s, b1.v, b1.a, deltaT);
                 b1.pos.x = b1.s.x;
                 b1.pos.y = b1.s.y;
                 Position1x.Add(b1.pos.x);
                 Position1y.Add(b1.pos.y);
 
                 //find new velocity of ball 1
-                b1.v = getNextVelocity(b1.v, b1.a, 0.01);
+                b1.v = getNextVelocity(b1.v, b1.a, deltaT);
                 Velocity1x.Add(b1.v.x);
                 Velocity1y.Add(b1.v.y);
                 Vfinal1.Add(b1.v.mag);
-<<<<<<< HEAD
-
-=======
                 Vangle1.Add(b1.v.angle);
                 
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
+
                 //find new position of ball 2
-                b2.s = getNextPosition(b2.s, b2.v, b2.a, 0.01);
+                b2.s = getNextPosition(b2.s, b2.v, b2.a, deltaT);
                 b2.pos.x = b2.s.x;
                 b2.pos.y = b2.s.y;
                 Position2x.Add(b2.pos.x);
                 Position2y.Add(b2.pos.y);
 
                 //find new velocity of ball 2
-                b2.v = getNextVelocity(b2.v, b2.a, 0.01);
+                b2.v = getNextVelocity(b2.v, b2.a, deltaT);
                 Velocity2x.Add(b2.v.x);
                 Velocity2y.Add(b2.v.y);
                 Vfinal2.Add(b2.v.mag);
@@ -174,6 +137,8 @@ namespace CollisionLab1
                 A1x.Add(0);
                 A1y.Add(0);
                 A1angle.Add(b1.a.angle);
+                A1xforce.Add(0);
+                A1yforce.Add(0);
                 A1force.Add(0);
                 A1fangle.Add(0);
 
@@ -181,59 +146,49 @@ namespace CollisionLab1
                 A2x.Add(0);
                 A2y.Add(0);
                 A2angle.Add(b2.a.angle);
+                A2xforce.Add(0);
+                A2yforce.Add(0);
                 A2force.Add(0);
                 A2fangle.Add(0);
 
+                cx.Add(0);
+                cy.Add(0);
+                
                 s = Math.Sqrt(Math.Pow(b2.pos.x - b1.pos.x, 2) +
                               Math.Pow(b2.pos.y - b1.pos.y, 2)); //find new distance between balls
                 count++; //increases the time by one interval
             }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
             //collision for 1d head on motionless
 
             Point c; // position of point of collision
-<<<<<<< HEAD
-            double k; //spring constant
-            double m; //mass of object (same for both objects)
-
-            // force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession
-            // of ball 2
-            // f3 is the force that causes torque on ball 2, produced by ball 1
-            // f4 is the force that causes torque on ball 1, produced by ball 2
-            Vector f1, f2, f3, f4;
-
-
-=======
             
             // force 1 is the force cause by the compression of ball 1, force of 2 is the force caused by the comporession
             // of ball 2
             Vector f1, f2;
             
             
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
             while (s <= b1.radius + b2.radius)
             {
                 Console.WriteLine("HI");
-                time.Add(count * 0.01);
+                time.Add(count * deltaT);
 
                 c = getCollisionPoint(b1.pos, b2.pos);
-<<<<<<< HEAD
-
-                f1 = getNextForce(b1.spring, c, b1.pos);
-                f2 = getNextForce(b2.spring, c, b2.pos);
-=======
+                cx.Add(c.x);
+                cy.Add(c.y);
             
                 f1 = getNextForce(b1.spring, c, b1);
+                A1xforce.Add(f1.x);
+                A1yforce.Add(f1.y);
                 A1force.Add(f1.mag);
                 A1fangle.Add(f1.angle);
+                
                 f2 = getNextForce(b2.spring, c, b2);
+                //f2.x *= -1; //DELETE LATER
+                A2xforce.Add(f2.x);
+                A2yforce.Add(f2.y);
                 A2force.Add(f2.mag);
                 A2fangle.Add(f2.angle);
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
 
                 // acceleration of ball 1 is calculated with the force exerted by BALL 2 
                 // acceleration of ball 2 is calculated with the force exerted by BALL 1 
@@ -249,39 +204,26 @@ namespace CollisionLab1
                 A2y.Add(b2.a.y);
                 A2angle.Add(b2.a.angle);
 
-<<<<<<< HEAD
-                b1.v = getNextVelocity(b1.v, b1.a, 0.01); //calculates new ball 1 velocity
-                Velocity1x.Add(b1.v.x);
-                Velocity1y.Add(b1.v.y);
-                Vfinal1.Add(b1.v.mag);
 
-                b1.s = getNextPosition(b1.s, b1.v, b1.a, 0.01); //calculates new ball 1 position
-=======
-                b1.v = getNextVelocity(b1.v, b1.a, 0.01);//calculates new ball 1 velocity
+                b1.v = getNextVelocity(b1.v, b1.a, deltaT);//calculates new ball 1 velocity
                 Velocity1x.Add(b1.v.x);
                 Velocity1y.Add(b1.v.y);
                 Vfinal1.Add(b1.v.mag);
                 Vangle1.Add(b1.v.angle);
                 
-                b1.s = getNextPosition(b1.s, b1.v, b1.a, 0.01);//calculates new ball 1 position
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
+                b1.s = getNextPosition(b1.s, b1.v, b1.a, deltaT);//calculates new ball 1 position
                 b1.pos.x = b1.s.x;
                 b1.pos.y = b1.s.y;
                 Position1x.Add(b1.pos.x);
                 Position1y.Add(b1.pos.y);
 
-                b2.v = getNextVelocity(b2.v, b2.a, 0.01); //calculates new ball 2 velocity
+                b2.v = getNextVelocity(b2.v, b2.a, deltaT); //calculates new ball 2 velocity
                 Velocity2x.Add(b2.v.x);
                 Velocity2y.Add(b2.v.y);
                 Vfinal2.Add(b2.v.mag);
-<<<<<<< HEAD
-
-                b2.s = getNextPosition(b2.s, b2.v, b2.a, 0.01); //calculates new ball 2 position
-=======
                 Vangle2.Add(b2.v.angle);
                 
-                b2.s = getNextPosition(b2.s, b2.v, b2.a, 0.01);//calculates new ball 2 position
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
+                b2.s = getNextPosition(b2.s, b2.v, b2.a, deltaT);//calculates new ball 2 position
                 b2.pos.x = b2.s.x;
                 b2.pos.y = b2.s.y;
                 Position2x.Add(b2.pos.x);
@@ -298,35 +240,31 @@ namespace CollisionLab1
             //loop for after balls compress
             for (int i = 0; i < 200; i++)
             {
-                time.Add(count * 0.01);
+                time.Add(count * deltaT);
 
                 //find new position of ball 1
-                b1.s = getNextPosition(b1.s, b1.v, b1.a, 0.01);
+                b1.s = getNextPosition(b1.s, b1.v, b1.a, deltaT);
                 b1.pos.x = b1.s.x;
                 b1.pos.y = b1.s.y;
                 Position1x.Add(b1.pos.x);
                 Position1y.Add(b1.pos.y);
 
                 //find new velocity of ball 1
-                b1.v = getNextVelocity(b1.v, b1.a, 0.01);
+                b1.v = getNextVelocity(b1.v, b1.a, deltaT);
                 Velocity1x.Add(b1.v.x);
                 Velocity1y.Add(b1.v.y);
                 Vfinal1.Add(b1.v.mag);
-<<<<<<< HEAD
-
-=======
                 Vangle1.Add(b1.v.angle);
-                
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
+
                 //find new position of ball 2
-                b2.s = getNextPosition(b2.s, b2.v, b2.a, 0.01);
+                b2.s = getNextPosition(b2.s, b2.v, b2.a, deltaT);
                 b2.pos.x = b2.s.x;
                 b2.pos.y = b2.s.y;
                 Position2x.Add(b2.pos.x);
                 Position2y.Add(b2.pos.y);
 
                 //find new velocity of ball 2
-                b2.v = getNextVelocity(b2.v, b2.a, 0.01);
+                b2.v = getNextVelocity(b2.v, b2.a, deltaT);
                 Velocity2x.Add(b2.v.x);
                 Velocity2y.Add(b2.v.y);
                 Vfinal2.Add(b2.v.mag);
@@ -337,6 +275,8 @@ namespace CollisionLab1
                 A1x.Add(0);
                 A1y.Add(0);
                 A1angle.Add(b1.a.angle);
+                A1xforce.Add(0);
+                A1yforce.Add(0);
                 A1force.Add(0);
                 A1fangle.Add(0);
 
@@ -344,8 +284,13 @@ namespace CollisionLab1
                 A2x.Add(0);
                 A2y.Add(0);
                 A2angle.Add(b2.a.angle);
+                A2xforce.Add(0);
+                A2yforce.Add(0);
                 A2force.Add(0);
                 A2fangle.Add(0);
+                
+                cx.Add(0);
+                cy.Add(0);
 
                 count++; //increases the time by one interval
             }
@@ -360,21 +305,14 @@ namespace CollisionLab1
 
 
             //create a csv file 
-<<<<<<< HEAD
             string filePath = @"C:\Users\Megan Niu\Desktop\12 Physics\test.csv";
             string delimiter = ",";
 
             string[][] output = new string[count + 1][];
             for (int i = 0; i < count + 1; i++)
-=======
-            string filePath = @"C:\Users\jacky\Desktop\School\Grade 12\AP Physics\CollisionFinal\Output.csv";
-                         string delimiter = ",";
-            
-               string[][] output = new string[count + 1][];
-           for (int i = 0; i < count + 1; i++)
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
+
             {
-                output[i] = new string[25];
+                output[i] = new string[31];
                 if (i == 0)
                 {
                     output[i][0] = "Time";
@@ -388,20 +326,26 @@ namespace CollisionLab1
                     output[i][8] = "Ay of Ball 1";
                     output[i][9] = "Afinal of Ball 1";
                     output[i][10] = "Angle of A Ball 1";
-                    output[i][11] = "Force on Ball 1";
-                    output[i][12] = "Angle of Force";
-                    output[i][13] = "X Pos of Ball 2";
-                    output[i][14] = "Y Pos of Ball 2";
-                    output[i][15] = "X Velocity of Ball 2";
-                    output[i][16] = "Y Velocity of Ball 2";
-                    output[i][17] = "Final Velocity of Ball 2";
-                    output[i][18] = "Angle of Velocity of Ball 2";
-                    output[i][19] = "Ax of Ball 2";
-                    output[i][20] = "Ay of Ball 2";
-                    output[i][21] = "Afinal of Ball 2";
-                    output[i][22] = "Angle of A Ball 2";
-                    output[i][23] = "Force on Ball 2";
-                    output[i][24] = "Angle of Force";
+                    output[i][11] = "Fx from Ball 1";
+                    output[i][12] = "Fy from Ball 1";
+                    output[i][13] = "Force from Ball 1";
+                    output[i][14] = "Angle of Force";
+                    output[i][15] = "X Pos of Ball 2";
+                    output[i][16] = "Y Pos of Ball 2";
+                    output[i][17] = "X Velocity of Ball 2";
+                    output[i][18] = "Y Velocity of Ball 2";
+                    output[i][19] = "Final Velocity of Ball 2";
+                    output[i][20] = "Angle of Velocity of Ball 2";
+                    output[i][21] = "Ax of Ball 2";
+                    output[i][22] = "Ay of Ball 2";
+                    output[i][23] = "Afinal of Ball 2";
+                    output[i][24] = "Angle of A Ball 2";
+                    output[i][25] = "Fx from Ball 2";
+                    output[i][26] = "Fy from Ball 2";
+                    output[i][27] = "Force from Ball 2";
+                    output[i][28] = "Angle of Force";
+                    output[i][29] = "cx";
+                    output[i][30] = "cy";
 
                 }
                 else
@@ -417,20 +361,26 @@ namespace CollisionLab1
                     output[i][8] = Convert.ToString(A1y[i - 1]);
                     output[i][9] = Convert.ToString(A1final[i - 1]);
                     output[i][10] = Convert.ToString(A1angle[i - 1]);
-                    output[i][11] = Convert.ToString(A1force[i - 1]);
-                    output[i][12] = Convert.ToString(A1fangle[i - 1]);
-                    output[i][13] = Convert.ToString(Position2x[i - 1]);
-                    output[i][14] = Convert.ToString(Position2y[i - 1]);
-                    output[i][15] = Convert.ToString(Velocity2x[i - 1]);
-                    output[i][16] = Convert.ToString(Velocity2y[i - 1]);
-                    output[i][17] = Convert.ToString(Vfinal2[i - 1]);
-                    output[i][18] = Convert.ToString(Vangle2[i - 1]);
-                    output[i][19] = Convert.ToString(A2x[i - 1]);
-                    output[i][20] = Convert.ToString(A2y[i - 1]);
-                    output[i][21] = Convert.ToString(A2final[i - 1]);
-                    output[i][22] = Convert.ToString(A2angle[i - 1]);
-                    output[i][23] = Convert.ToString(A2force[i - 1]);
-                    output[i][24] = Convert.ToString(A2fangle[i - 1]);
+                    output[i][11] = Convert.ToString(A1xforce[i - 1]);
+                    output[i][12] = Convert.ToString(A1yforce[i - 1]);
+                    output[i][13] = Convert.ToString(A1force[i - 1]);
+                    output[i][14] = Convert.ToString(A1fangle[i - 1]);
+                    output[i][15] = Convert.ToString(Position2x[i - 1]);
+                    output[i][16] = Convert.ToString(Position2y[i - 1]);
+                    output[i][17] = Convert.ToString(Velocity2x[i - 1]);
+                    output[i][18] = Convert.ToString(Velocity2y[i - 1]);
+                    output[i][19] = Convert.ToString(Vfinal2[i - 1]);
+                    output[i][20] = Convert.ToString(Vangle2[i - 1]);
+                    output[i][21] = Convert.ToString(A2x[i - 1]);
+                    output[i][22] = Convert.ToString(A2y[i - 1]);
+                    output[i][23] = Convert.ToString(A2final[i - 1]);
+                    output[i][24] = Convert.ToString(A2angle[i - 1]);
+                    output[i][25] = Convert.ToString(A2xforce[i - 1]);
+                    output[i][26] = Convert.ToString(A2yforce[i - 1]);
+                    output[i][27] = Convert.ToString(A2force[i - 1]);
+                    output[i][28] = Convert.ToString(A2fangle[i - 1]);
+                    output[i][29] = Convert.ToString(cx[i - 1]);
+                    output[i][30] = Convert.ToString(cy[i - 1]);
                 }
             }
             int length = output.GetLength(0);
@@ -459,7 +409,8 @@ namespace CollisionLab1
 
             double sy; //y component final position
             sy = so.y + v.y * t + 0.5 * a.y * Math.Pow(t, 2); // calculating final postion using kinematics
-
+            //sy = 0;//DELETE LATER
+            
             Vector s = new Vector(sx, sy);
 
             return s;
@@ -516,15 +467,15 @@ namespace CollisionLab1
         static public Vector getNextForce(double k, Point c, Ball a)
         {
             double fMag;
-<<<<<<< HEAD
-            fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y));
 
-            Vector f = new Vector(pos, c, fMag);
-=======
+           // fMag = -1 * k * Math.Sqrt((c.x - pos.x) * (c.x - pos.x) + (c.y - pos.y) * (c.y - pos.y));
+
+           // Vector f = new Vector(pos, c, fMag);
+
             fMag = k * (a.radius - Math.Sqrt((c.x-a.pos.x)*(c.x-a.pos.x) + (c.y-a.pos.y)*(c.y-a.pos.y)));
             
             Vector f = new Vector(a.pos, c, fMag);
->>>>>>> 09a2a4b2f35c777db80cb7a4a0c20143fa418a68
+
             return f;
         }
 
@@ -564,7 +515,7 @@ namespace CollisionLab1
 
         }
         **/
-
+/*
         /// <summary>
         /// getNextAngularVelocity calculated the next angular velocity of a ball
         /// </summary>
@@ -600,6 +551,7 @@ namespace CollisionLab1
 
     }
 }*/
+        /*
 namespace CollisionLab1
 {
     class Collision
@@ -990,7 +942,7 @@ namespace CollisionLab1
             return c;
         }
 
-        /*
+        
         static public Vector getNextTorqueForce(Point c, Ball b1, Ball b2)
         {
             Vector f, n;
