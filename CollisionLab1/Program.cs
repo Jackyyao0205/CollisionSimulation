@@ -20,8 +20,8 @@ namespace CollisionLab1
             double deltaT = 0.0009;
             
             //creates 2 ball objects (posx, posy, velocity, acceleration, radius, spring constant, mass, rotational speed, angle, if glancing)
-            Ball b1 = new Ball(-3, 0, 5, 0, 2, 1130, 5,0,0,false, 1);
-            Ball b2 = new Ball(3, 0, 3, 0, 2, 1130, 5, 0,0,false, 1);
+            Ball b1 = new Ball(-1, 1, 20, 0, 1, 1130, 5,0,315 * 2 * Math.PI / 360,false, 1);
+            Ball b2 = new Ball(1, 1, 12, 0, 1, 1130, 5, 0,225 * 2 * Math.PI / 360,false, 1);
             
             List<double> time = new List<double>();//creates a list for each time interval
             time.Add(0);//adds the time at 0
@@ -38,6 +38,8 @@ namespace CollisionLab1
             Position1x.Add(b1.pos.x);//adds the position at time 0
             List<double> Position1y = new List<double>();//creates a list for each of the positions of centre of ball 1
             Position1y.Add(b1.pos.y);//adds the position at time 0
+            List<double> Position1Angle = new List<double>();
+            Position1Angle.Add(b1.s.angle);
             List<double> A1x = new List<double>();//creates a list for each of the positions of centre of ball 1
             A1x.Add(b1.a.x);//adds the position at time 0
             List<double> A1y = new List<double>();//creates a list for each of the positions of centre of ball 1
@@ -67,6 +69,8 @@ namespace CollisionLab1
             Position2x.Add(b2.pos.x);//adds the position at time 0
             List<double> Position2y = new List<double>();//creates a list for each of the positions of centre of ball 1
             Position2y.Add(b2.pos.y);//adds the position at time 0
+            List<double> Position2Angle = new List<double>();
+            Position2Angle.Add(b2.s.angle);
             List<double> A2x = new List<double>();//creates a list for each of the positions of centre of ball 1
             A2x.Add(b2.a.x);//adds the position at time 0
             List<double> A2y = new List<double>();//creates a list for each of the positions of centre of ball 1
@@ -109,7 +113,8 @@ namespace CollisionLab1
                 b1.pos.y = b1.s.y;
                 Position1x.Add(b1.pos.x);
                 Position1y.Add(b1.pos.y);
-
+                Position1Angle.Add(b1.s.angle);
+                
                 //find new velocity of ball 1
                 b1.v = getNextVelocity(b1.v, b1.a, deltaT);
                 Velocity1x.Add(b1.v.x);
@@ -124,6 +129,7 @@ namespace CollisionLab1
                 b2.pos.y = b2.s.y;
                 Position2x.Add(b2.pos.x);
                 Position2y.Add(b2.pos.y);
+                Position2Angle.Add(b2.s.angle);
 
                 //find new velocity of ball 2
                 b2.v = getNextVelocity(b2.v, b2.a, deltaT);
@@ -216,6 +222,7 @@ namespace CollisionLab1
                 b1.pos.y = b1.s.y;
                 Position1x.Add(b1.pos.x);
                 Position1y.Add(b1.pos.y);
+                Position1Angle.Add(b1.s.angle);
 
                 b2.v = getNextVelocity(b2.v, b2.a, deltaT); //calculates new ball 2 velocity
                 Velocity2x.Add(b2.v.x);
@@ -228,6 +235,7 @@ namespace CollisionLab1
                 b2.pos.y = b2.s.y;
                 Position2x.Add(b2.pos.x);
                 Position2y.Add(b2.pos.y);
+                Position2Angle.Add(b2.s.angle);
 
                 s = Math.Sqrt(Math.Pow(b2.pos.x - b1.pos.x, 2) + Math.Pow(b2.pos.y - b1.pos.y, 2));
                 count++; //increase the time by interval
@@ -248,6 +256,7 @@ namespace CollisionLab1
                 b1.pos.y = b1.s.y;
                 Position1x.Add(b1.pos.x);
                 Position1y.Add(b1.pos.y);
+                Position1Angle.Add(b1.s.angle);
 
                 //find new velocity of ball 1
                 b1.v = getNextVelocity(b1.v, b1.a, deltaT);
@@ -262,6 +271,7 @@ namespace CollisionLab1
                 b2.pos.y = b2.s.y;
                 Position2x.Add(b2.pos.x);
                 Position2y.Add(b2.pos.y);
+                Position2Angle.Add(b2.s.angle);
 
                 //find new velocity of ball 2
                 b2.v = getNextVelocity(b2.v, b2.a, deltaT);
@@ -312,40 +322,42 @@ namespace CollisionLab1
             for (int i = 0; i < count + 1; i++)
 
             {
-                output[i] = new string[31];
+                output[i] = new string[33];
                 if (i == 0)
                 {
                     output[i][0] = "Time";
                     output[i][1] = "X Pos of Ball 1";
                     output[i][2] = "Y Pos of Ball 1";
-                    output[i][3] = "X Velocity of Ball 1";
-                    output[i][4] = "Y Velocity of Ball 1";
-                    output[i][5] = "Final Velocity of Ball 1";
-                    output[i][6] = "Angle of Velocity of Ball 1";
-                    output[i][7] = "Ax of Ball 1";
-                    output[i][8] = "Ay of Ball 1";
-                    output[i][9] = "Afinal of Ball 1";
-                    output[i][10] = "Angle of A Ball 1";
-                    output[i][11] = "Fx from Ball 1";
-                    output[i][12] = "Fy from Ball 1";
-                    output[i][13] = "Force from Ball 1";
-                    output[i][14] = "Angle of Force";
-                    output[i][15] = "X Pos of Ball 2";
-                    output[i][16] = "Y Pos of Ball 2";
-                    output[i][17] = "X Velocity of Ball 2";
-                    output[i][18] = "Y Velocity of Ball 2";
-                    output[i][19] = "Final Velocity of Ball 2";
-                    output[i][20] = "Angle of Velocity of Ball 2";
-                    output[i][21] = "Ax of Ball 2";
-                    output[i][22] = "Ay of Ball 2";
-                    output[i][23] = "Afinal of Ball 2";
-                    output[i][24] = "Angle of A Ball 2";
-                    output[i][25] = "Fx from Ball 2";
-                    output[i][26] = "Fy from Ball 2";
-                    output[i][27] = "Force from Ball 2";
-                    output[i][28] = "Angle of Force";
-                    output[i][29] = "cx";
-                    output[i][30] = "cy";
+                    output[i][3] = "Angle of Ball 1";
+                    output[i][4] = "X Velocity of Ball 1";
+                    output[i][5] = "Y Velocity of Ball 1";
+                    output[i][6] = "Final Velocity of Ball 1";
+                    output[i][7] = "Angle of Velocity of Ball 1";
+                    output[i][8] = "Ax of Ball 1";
+                    output[i][9] = "Ay of Ball 1";
+                    output[i][10] = "Afinal of Ball 1";
+                    output[i][11] = "Angle of A Ball 1";
+                    output[i][12] = "Fx from Ball 1";
+                    output[i][13] = "Fy from Ball 1";
+                    output[i][14] = "Force from Ball 1";
+                    output[i][15] = "Angle of Force";
+                    output[i][16] = "X Pos of Ball 2";
+                    output[i][17] = "Y Pos of Ball 2";
+                    output[i][18] = "Angle of Ball 2";
+                    output[i][19] = "X Velocity of Ball 2";
+                    output[i][20] = "Y Velocity of Ball 2";
+                    output[i][21] = "Final Velocity of Ball 2";
+                    output[i][22] = "Angle of Velocity of Ball 2";
+                    output[i][23] = "Ax of Ball 2";
+                    output[i][24] = "Ay of Ball 2";
+                    output[i][25] = "Afinal of Ball 2";
+                    output[i][26] = "Angle of A Ball 2";
+                    output[i][27] = "Fx from Ball 2";
+                    output[i][28] = "Fy from Ball 2";
+                    output[i][29] = "Force from Ball 2";
+                    output[i][30] = "Angle of Force";
+                    output[i][31] = "cx";
+                    output[i][32] = "cy";
 
                 }
                 else
@@ -353,34 +365,36 @@ namespace CollisionLab1
                     output[i][0] = Convert.ToString(time[i - 1]);
                     output[i][1] = Convert.ToString(Position1x[i - 1]);
                     output[i][2] = Convert.ToString(Position1y[i - 1]);
-                    output[i][3] = Convert.ToString(Velocity1x[i - 1]);
-                    output[i][4] = Convert.ToString(Velocity1y[i - 1]);
-                    output[i][5] = Convert.ToString(Vfinal1[i - 1]);
-                    output[i][6] = Convert.ToString(Vangle1[i - 1]);
-                    output[i][7] = Convert.ToString(A1x[i - 1]);
-                    output[i][8] = Convert.ToString(A1y[i - 1]);
-                    output[i][9] = Convert.ToString(A1final[i - 1]);
-                    output[i][10] = Convert.ToString(A1angle[i - 1]);
-                    output[i][11] = Convert.ToString(A1xforce[i - 1]);
-                    output[i][12] = Convert.ToString(A1yforce[i - 1]);
-                    output[i][13] = Convert.ToString(A1force[i - 1]);
-                    output[i][14] = Convert.ToString(A1fangle[i - 1]);
-                    output[i][15] = Convert.ToString(Position2x[i - 1]);
-                    output[i][16] = Convert.ToString(Position2y[i - 1]);
-                    output[i][17] = Convert.ToString(Velocity2x[i - 1]);
-                    output[i][18] = Convert.ToString(Velocity2y[i - 1]);
-                    output[i][19] = Convert.ToString(Vfinal2[i - 1]);
-                    output[i][20] = Convert.ToString(Vangle2[i - 1]);
-                    output[i][21] = Convert.ToString(A2x[i - 1]);
-                    output[i][22] = Convert.ToString(A2y[i - 1]);
-                    output[i][23] = Convert.ToString(A2final[i - 1]);
-                    output[i][24] = Convert.ToString(A2angle[i - 1]);
-                    output[i][25] = Convert.ToString(A2xforce[i - 1]);
-                    output[i][26] = Convert.ToString(A2yforce[i - 1]);
-                    output[i][27] = Convert.ToString(A2force[i - 1]);
-                    output[i][28] = Convert.ToString(A2fangle[i - 1]);
-                    output[i][29] = Convert.ToString(cx[i - 1]);
-                    output[i][30] = Convert.ToString(cy[i - 1]);
+                    output[i][3] = Convert.ToString(Position1Angle[i - 1]);
+                    output[i][4] = Convert.ToString(Velocity1x[i - 1]);
+                    output[i][5] = Convert.ToString(Velocity1y[i - 1]);
+                    output[i][6] = Convert.ToString(Vfinal1[i - 1]);
+                    output[i][7] = Convert.ToString(Vangle1[i - 1]);
+                    output[i][8] = Convert.ToString(A1x[i - 1]);
+                    output[i][9] = Convert.ToString(A1y[i - 1]);
+                    output[i][10] = Convert.ToString(A1final[i - 1]);
+                    output[i][11] = Convert.ToString(A1angle[i - 1]);
+                    output[i][12] = Convert.ToString(A1xforce[i - 1]);
+                    output[i][13] = Convert.ToString(A1yforce[i - 1]);
+                    output[i][14] = Convert.ToString(A1force[i - 1]);
+                    output[i][15] = Convert.ToString(A1fangle[i - 1]);
+                    output[i][16] = Convert.ToString(Position2x[i - 1]);
+                    output[i][17] = Convert.ToString(Position2y[i - 1]);
+                    output[i][18] = Convert.ToString(Position2Angle[i - 1]);
+                    output[i][19] = Convert.ToString(Velocity2x[i - 1]);
+                    output[i][20] = Convert.ToString(Velocity2y[i - 1]);
+                    output[i][21] = Convert.ToString(Vfinal2[i - 1]);
+                    output[i][22] = Convert.ToString(Vangle2[i - 1]);
+                    output[i][23] = Convert.ToString(A2x[i - 1]);
+                    output[i][24] = Convert.ToString(A2y[i - 1]);
+                    output[i][25] = Convert.ToString(A2final[i - 1]);
+                    output[i][26] = Convert.ToString(A2angle[i - 1]);
+                    output[i][27] = Convert.ToString(A2xforce[i - 1]);
+                    output[i][28] = Convert.ToString(A2yforce[i - 1]);
+                    output[i][29] = Convert.ToString(A2force[i - 1]);
+                    output[i][30] = Convert.ToString(A2fangle[i - 1]);
+                    output[i][31] = Convert.ToString(cx[i - 1]);
+                    output[i][32] = Convert.ToString(cy[i - 1]);
                 }
             }
             int length = output.GetLength(0);
